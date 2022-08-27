@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="./styles/style.css"> <!-- подключение стилей -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
-  <style></style>
+  <style>
+    span {
+      color: red;
+    }
+  </style>
 
 </head>
 
@@ -43,6 +47,28 @@
     </ul>
 
     <input type="text" required readonly>
+
+    <!-- p{Элемент с текстом № $}*10 -->
+    <p id="el1">Элемент с текстом № 1</p>
+    <p class="el2">Элемент с текстом № 2</p>
+    <p class="el3">Элемент с текстом № 3</p>
+    <p>Элемент с текстом <span>№ 4</span></p>
+
+    <p class="el el4">Элемент с текстом № 5</p>
+    <p class="el6">Элемент с текстом № 6</p>
+    <div>
+      <p>
+        <span>Элемент с текстом № 7</span>
+      </p>
+      <span>
+        Элемент с текстом № 8
+      </span>
+    </div>
+    <div>
+      <p>Элемент с текстом № 9</p>
+    </div>
+
+    <p style="color: green;">Элемент с текстом № 10</p>
 
   </main>
 

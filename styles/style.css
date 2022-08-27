@@ -1,3 +1,8 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 /* стиль тега */
 header {
   background-color: rgba(0, 44, 189, 0.586);
@@ -18,4 +23,41 @@ nav {
 
 a {
   text-decoration: none;
+}
+
+#el1 {
+  color: blueviolet;
+}
+
+.el2 {
+  color: blue;
+}
+.el3 {
+  color: orange;
+}
+
+p span {
+  color: red;
+}
+
+.el.el4 {
+  font-family: 'Pacifico';
+  font-size: 18px;
+  color: cornflowerblue;
+}
+
+.el6 {
+  box-shadow: 0 4px 30px 0 rgba(50, 50, 100, 0.25);
+}
+
+input[required] {
+  border-color: brown;
+}
+
+p + span {
+  color: dimgray;
+}
+
+div > p {
+  color: purple;
 }
