@@ -8,53 +8,34 @@
   <title>Home work #4</title>
   <link rel="stylesheet" href="./styles/style.css"> <!-- подключение стилей -->
 
-  <!-- <style>
-    p {
-      color: green;
-      font-weight: 700;
-    }
-  </style> -->
-
 </head>
 
 <body>
 
   <header></header>
   <main>
-    <h1 id="mainTitle" style="color: red; opacity: 0.5;">
-      Lorem ipsum dolor sit amet.
-    </h1>
-    <p class="default-text custom-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, dolores!
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam labore hic officia quod nulla. Dolor,
-      eum! Aut a atque minima eos perspiciatis porro doloremque accusamus maiores rerum. Distinctio, laborum?
-    </p>
-
-    <input type="text" required>
-
-    <div>
-      <p>
-        <span>
-          Lorem ipsum dolor sit.
-        </span>
-      </p>
-    </div>
-
+    <h1>Домашнее задание №4</h1>
+    <p>Типы селекторов:</p>
     <ul>
-      <li>Item_1</li>
-      <li>Item_2</li>
-      <li>Item_3</li>
-      <li>Item_4</li>
-      <li>Item_5</li>
-      <li>Item_6</li>
+      <li>по тегу - например: p {}. Будут выбраны элементы с тегом р;</li>
+      <li>по id - #id {}. Будут выбраны элементы с определённым id;</li>
+      <li>по классу - .class {}. Будут выбраны элементы с классом .class;</li>
+      <li>по нескольким классам - .class1.class2 {}. Будут выбраны элементы, в которых указаны классы "class1 class 2";
+      </li>
+      <li>по вложенности - p span {} Будут выбраны элементы, которые находятся в теге span внутри тега p;</li>
+      <li>универсальные - * {}. Будут выбраны все элементы разметки html страницы;</li>
+      <li>дочерние - p > span {}. Будут выбраны элементы тега span, который находится сразу после тега p;</li>
+      <li>соседние - p + span {}. Будут выбраны элементы тега span, только если он является соседним для элемента p и
+        следует сразу после него;</li>
+      <li>родственные - p ~ span {}. По своему поведению похожи на соседние селекторы, но в отличие от них стилевые
+        правила применяются ко всем близлежащим элементам тега span;</li>
+      <li>по атрибуту - p[атрибут] {}. Стиль применяется к тем элементам, внутри которых добавлен указанный атрибут;
+      </li>
+      <li>и т.д.</li>
     </ul>
 
 
   </main>
-  <footer></footer>
 
 </body>
 
