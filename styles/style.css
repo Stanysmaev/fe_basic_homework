@@ -1,39 +1,21 @@
 /* стиль тега */
-p {
+header {
+  background-color: rgba(0, 44, 189, 0.586);
+  padding-left: 5px;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: -8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-/* стиль id */
-#mainTitle {
-  color: white;
+nav {
+  font-family: 'Pacifico';
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
-/* стиль класса */
-.default-text {
-  color: lightcoral;
-}
-
-input[required] {
-  border-color: red;
-}
-
-.default-text.custom-text {
-  color: yellow;
-}
-
-/* применение стиля к тегу span который в теге p */
-p span {
-  color: red;
-}
-
-/* ищем спан внутри тега див только на первом уровне вложености */
-div > span {
-  color: green;
-}
-
-/* следующий элемент после тега p */
-p + span {
-  color: aqua;
-}
-
-.wrap {
+a {
+  text-decoration: none;
 }
