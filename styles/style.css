@@ -1,0 +1,44 @@
+p {
+  color: purple;
+  margin-top: 100px;
+}
+
+/* стиль тега */
+hl {
+}
+
+/* стиль id */
+#mainTitle {
+  color: white;
+}
+
+/* стиль класса */
+.default-text {
+  color: lightcoral;
+}
+
+input[required] {
+  border-color: red;
+}
+
+.default-text.custom-text {
+  color: yellow;
+}
+
+/* применение стиля к тегу span который в теге p */
+p span {
+  color: red;
+}
+
+/* ищем спан внутри тега див только на первом уровне вложености */
+div > span {
+  color: green;
+}
+
+/* следующий элемент после тега p */
+p + span {
+  color: aqua;
+}
+
+.wrap {
+}
