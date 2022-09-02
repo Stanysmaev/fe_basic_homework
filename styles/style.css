@@ -8,6 +8,23 @@ img {
   max-width: 100%;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* line-height: 150%; */
+  color: #303030;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: red;
+  font-weight: 900;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -19,4 +36,31 @@ img {
 
 p {
   display: block;
+}
+
+.float-left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.float-right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+.square {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
 }
