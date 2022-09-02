@@ -15,12 +15,3 @@
   font-style: normal;
   /* font-display: swap; */
 }
-
-@font-face {
-  font-family: 'Pacifico';
-  src: url('Pacifico-Regular.woff2') format('woff2'),
-    url('Pacifico-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  /* font-display: swap; */
-}
