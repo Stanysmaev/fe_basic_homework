@@ -34,7 +34,6 @@ html {
   width: 200px;
   height: 226px;
   background: #e0e0e0;
-  /* display: inline-block; */
   display: inline-table;
   margin: 0 15px 30px 15px;
 }
