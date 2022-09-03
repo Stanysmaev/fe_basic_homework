@@ -25,9 +25,13 @@ html {
 .container {
   width: 100%;
   max-width: 700px;
-  display: block;
+  min-width: 200px;
   margin: 0 auto;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -57,4 +61,5 @@ html {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
+  min-width: 200px;
 }
