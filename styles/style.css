@@ -24,3 +24,27 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+input,
+textarea,
+select {
+  /* ось y, ось x */
+  padding: 0.5rem 1rem;
+}
+
+.option input[type='checkbox'] + span {
+  color: red;
+}
+
+.option input[type='checkbox']:checked + span {
+  color: green;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 8rem;
+}

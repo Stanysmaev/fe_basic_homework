@@ -5,17 +5,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home works</title>
+  <title>Home work №6</title>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./fonts/font.css">
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <nav>
+      <a href="./index.html">Реєстрація</a>
+      <a href="./pages/authorisation.html">Авторизація</a>
+      <a href="./pages/search.html">Пошук</a>
+    </nav>
+  </header>
+
   <main>
     <section>
       <div class="container">
-        <h1>Lesson №_</h1>
+        <h1>Lesson №6</h1>
+        <form action="https://fom.in.ua/echo" method="post">
+
+          <label for="name">Name: </label>
+          <input id="name" type="text" name="firstName" placeholder="Enter your name">
+
+          <label>
+            <span>Phone: </span>
+            <input type="text" name="lastName" placeholder="+380..">
+          </label>
+
+          <fieldset>
+            <legend>legend</legend>
+            <p>
+              <label class="option">
+                <input type="checkbox" name="checkbox" value="option1">
+                <span>Select this option</span>
+              </label>
+            </p>
+            <p>
+              <label class="option">
+                <input type="checkbox" name="checkbox" value="option2">
+                <span>Select this option</span>
+              </label>
+            </p>
+            <p>
+              <label class="option">
+                <input type="checkbox" name="checkbox" value="option3">
+                <span>Select this option</span>
+              </label>
+            </p>
+            <p>
+              <label class="option">
+                <input type="checkbox" name="checkbox" value="option4">
+                <span>Select this option</span>
+              </label>
+            </p>
+          </fieldset>
+
+
+          <!--  -->
+          <p>
+            <label class="option">
+              <input type="radio" name="radio" value="option1">
+              <span>Select this option</span>
+            </label>
+          </p>
+          <p>
+            <label class="option">
+              <input type="radio" name="radio" value="option2">
+              <span>Select this option</span>
+            </label>
+          </p>
+          <p>
+            <label class="option">
+              <input type="radio" name="radio" value="option3">
+              <span>Select this option</span>
+            </label>
+          </p>
+          <p>
+            <label class="option">
+              <input type="radio" name="radio" value="option4">
+              <span>Select this option</span>
+            </label>
+          </p>
+
+          <p>
+            <input type="color" onchange="(e) => console.log(e.target.value)">
+          </p>
+          <p>
+            <input type="month">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="time">
+
+          </p>
+          <p>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+          </p>
+          <p>
+            <input type="file" multiple>
+          </p>
+          <p>
+            <input type="image" alt="photo">
+          </p>
+          <p>
+            <input type="number" min="0" max="10" step="2">
+          </p>
+          <p>
+            <input type="range" min="0" max="10" step="2">
+          </p>
+          <p>
+            <input type="search">
+          </p>
+          <p>
+            <input type="url">
+          </p>
+          <p>
+            <textarea placeholder="your message"></textarea>
+          </p>
+          <p>
+            <select name="select" id="select">
+              <option value="val1" disabled selected>Select option</option>
+              <option value="val2">Option 1</option>
+              <option value="val3">Option 2</option>
+              <option value="val4">Option 3</option>
+              <option value="val5">Option 4</option>
+            </select>
+          </p>
+
+          <!--  -->
+
+          <input type="submit" value="Send form">
+          <input type="image" alt="some" src="./">
+
+          <!-- <button type="submit">
+            Send form
+            <img src="./" alt="arrow">
+          </button> -->
+
+        </form>
       </div>
     </section>
   </main>
