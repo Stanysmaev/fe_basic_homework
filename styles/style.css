@@ -6,6 +6,12 @@
 
 img {
   max-width: 100%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 html {
@@ -13,54 +19,43 @@ html {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  /* line-height: 150%; */
-  color: #303030;
-}
-
-h2 {
-  font-family: 'Pacifico', cursive;
-  color: red;
-  font-weight: 900;
-  width: 500px;
-  margin-bottom: 30px;
+  color: #000000;
 }
 
 .container {
   width: 100%;
-  max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-p {
+  max-width: 700px;
   display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-.float-left {
-  float: left;
-  margin-right: 1rem;
-}
-
-.float-right {
-  float: right;
-  margin-left: 1rem;
-}
-
-.clearfix {
-  display: block;
-  clear: both;
-}
-
-.square {
-  display: block;
+.card {
   width: 200px;
-  height: 200px;
-  background-color: #fc8f8f;
+  height: 226px;
+  background: #e0e0e0;
+  /* display: inline-block; */
+  display: inline-table;
+  margin: 0 15px 30px 15px;
 }
 
-.square {
-  width: 100px;
-  height: 100px;
+.header3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.descr {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
 }
