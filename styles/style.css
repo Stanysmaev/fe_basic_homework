@@ -26,12 +26,16 @@ html {
   background: #c4c4c4;
 }
 
-.square.left {
+.squareLeft {
   display: block;
   width: 200px;
   height: 200px;
   background: #fc8f8f;
   float: left;
+}
+
+.m355 {
+  margin-right: 355px;
 }
 
 .square.right {
@@ -42,15 +46,28 @@ html {
   float: right;
 }
 
-.square.small {
+.squareSmall {
+  display: block;
   width: 100px;
   height: 100px;
   background: #fc8f8f;
+  float: left;
+}
+
+.m15 {
+  margin-right: 15px;
+}
+
+.m170 {
+  margin-right: 170px;
 }
 
 .gray.square {
+  display: block;
   width: 1000px;
   background: #e6e6e6;
+  float: left;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -61,5 +78,16 @@ h2 {
   text-align: center;
   margin-top: 63px;
   margin-bottom: 62px;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 31.5px;
   color: #ffffff;
 }
