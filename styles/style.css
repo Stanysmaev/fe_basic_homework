@@ -18,9 +18,48 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1100px;
+  height: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 50px;
+  background: #c4c4c4;
+}
+
+.square.left {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  float: left;
+}
+
+.square.right {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  float: right;
+}
+
+.square.small {
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+}
+
+.gray.square {
+  width: 1000px;
+  background: #e6e6e6;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 63px;
+  margin-bottom: 62px;
+  color: #ffffff;
 }
