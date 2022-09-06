@@ -54,6 +54,10 @@ html {
   margin-right: 15px;
 }
 
+.m10 {
+  margin-right: 12px;
+}
+
 .gray.square {
   display: block;
   width: 1000px;
@@ -84,4 +88,22 @@ h3 {
   margin-top: 31px;
   margin-bottom: 31.5px;
   color: #ffffff;
+}
+
+.squareSmallRight {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  display: inline-block;
+}
+
+.squareRightThird {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  display: inline-block;
 }
