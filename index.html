@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
@@ -13,14 +13,28 @@
 <body>
   <header>
     <nav>
-      <a href="./index.html">Реєстрація</a>
+      <a class="a active" href="./index.html">Реєстрація</a>
       <a href="./pages/authorisation.html">Авторизація</a>
       <a href="./pages/search.html">Пошук</a>
     </nav>
   </header>
 
   <main>
+
     <section>
+      <div class="login block">
+        <h1 class="h1 mb20">Реєстрація:</h1>
+        <form action="https://fom.in.ua/echo" method="post">
+          <input class="mb20" type="email" name="email" placeholder="Е-mail">
+          <input class="mb20" type="password" name="password" placeholder="Пароль">
+          <input class="mb20" type="password" name="retrypassword" placeholder="Підтвердіть пароль">
+          <input class="button green" type="submit" value="Зареєструватися">
+
+        </form>
+      </div>
+    </section>
+
+    <!-- <section>
       <div class="container">
         <h1>Lesson №6</h1>
         <form action="https://fom.in.ua/echo" method="post">
@@ -62,7 +76,7 @@
           </fieldset>
 
 
-          <!--  -->
+
           <p>
             <label class="option">
               <input type="radio" name="radio" value="option1">
@@ -133,20 +147,15 @@
             </select>
           </p>
 
-          <!--  -->
 
           <input type="submit" value="Send form">
           <input type="image" alt="some" src="./">
-
-          <!-- <button type="submit">
-            Send form
-            <img src="./" alt="arrow">
-          </button> -->
-
         </form>
       </div>
-    </section>
+    </section> -->
+
   </main>
+
   <footer></footer>
 
 </body>

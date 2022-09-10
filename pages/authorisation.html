@@ -10,16 +10,36 @@
   <link rel="stylesheet" href="../fonts/font.css">
 </head>
 
-<header>
-  <nav>
-    <a href="../index.html">Реєстрація</a>
-    <a href="./authorisation.html">Авторизація</a>
-    <a href="./search.html">Пошук</a>
-  </nav>
-</header>
 
 <body>
+  <header>
+    <nav>
+      <a href="../index.html">Реєстрація</a>
+      <a class="a active" href="./authorisation.html">Авторизація</a>
+      <a href="./search.html">Пошук</a>
+    </nav>
+  </header>
 
+  <main>
+    <section>
+      <div class="login block">
+        <h1 class="h1 mb20">Авторизація:</h1>
+        <form action="https://fom.in.ua/echo" method="post">
+          <input class="mb20" type="email" name="email" placeholder="Е-mail">
+          <input class="mb20" type="password" name="password" placeholder="Пароль">
+          <p>
+            <label class="remember">
+              <input type="checkbox" name="remember_the_password" value="option1">
+              <span>Запам'ятати пароль</span>
+            </label>
+          </p>
+
+          <input class="button green" type="submit" value="Зареєструватися">
+
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

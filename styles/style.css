@@ -16,6 +16,34 @@ html {
   color: #303030;
 }
 
+header {
+  background-color: rgb(226, 226, 226);
+  height: 30px;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: small;
+  text-decoration: none;
+  color: #414042;
+  line-height: 30px;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.a.active {
+  color: #7b7b7b;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -25,13 +53,70 @@ html {
   padding-right: 15px;
 }
 
-input,
-textarea,
-select {
-  /* ось y, ось x */
-  padding: 0.5rem 1rem;
+.login.block {
+  max-width: 370px;
+  margin: 100px auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 30px;
 }
 
+.h1 {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  text-align: center;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.button.green {
+  border-color: #79be00;
+  background: #79be00;
+  color: white;
+  padding: 0 15px;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.button.green:hover {
+  border-color: #84ca08;
+  background-color: #84ca08;
+}
+
+.remember {
+  display: inline-block;
+  color: #414042;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 9px 12px;
+  color: #414042;
+  border: 1px solid #e0e3e4;
+  border-radius: 2px;
+  width: 300px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* input,
+textarea,
+select {
+  margin-bottom: 20px;
+  padding: 0.5rem 1rem;
+} */
+
+/* 
 .option input[type='checkbox'] + span {
   color: red;
 }
@@ -47,4 +132,4 @@ p {
 textarea {
   resize: none;
   height: 8rem;
-}
+} */
