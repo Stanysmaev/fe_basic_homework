@@ -76,7 +76,31 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.remember {
+  display: inline-block;
+  color: #414042;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input.reg.aut {
+  padding: 9px 12px;
+  color: #414042;
+  border: 1px solid #e0e3e4;
+  border-radius: 2px;
+  /* width: 308px; */
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 16px;
+}
+
 .button.green {
+  width: 100%;
+  line-height: 20px;
+  border: 1px solid #e0e3e4;
   border-color: #79be00;
   background: #79be00;
   color: white;
@@ -88,25 +112,6 @@ a:hover {
 .button.green:hover {
   border-color: #84ca08;
   background-color: #84ca08;
-}
-
-.remember {
-  display: inline-block;
-  color: #414042;
-  line-height: 1.4;
-  margin-bottom: 20px;
-}
-
-input {
-  padding: 9px 12px;
-  color: #414042;
-  border: 1px solid #e0e3e4;
-  border-radius: 2px;
-  width: 300px;
-  line-height: 20px;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  font-size: 16px;
 }
 
 /* input,
