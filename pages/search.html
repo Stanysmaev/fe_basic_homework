@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../fonts/font.css">
 </head>
 
-
 <body>
   <header>
     <nav>
@@ -20,6 +19,196 @@
     </nav>
   </header>
 
+  <main>
+    <section class="container">
+      <h1 class="sh1">Пошук авто:</h1>
+      <div class="search block">
+        <form action="https://fom.in.ua/echo" method="post">
+
+          <div class="mb20 search div cell">
+            <span>Тип кузова</span>
+            <label class="option">
+              <select name="tip_kuzova" id="select1">
+                <option value="0" disabled selected>Обрати</option>
+                <option value="sedan">Седан</option>
+                <option value="hetchbek">Хетчбек</option>
+                <option value="kupe">Купе</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="mb20 search div cell">
+            <span>Марка авто</span>
+            <label class="option">
+              <select name="marka_avto" id="select2">
+                <option value="0" disabled selected>Обрати</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="lexus">Lexus</option>
+                <option value="mazda">Mazda</option>
+                <option value="renault">Renault</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="mb20 search div cell">
+            <span>Країна виробника</span>
+            <label class="option">
+              <select name="kraina_virobnik" id="select3">
+                <option value="0" disabled selected>Обрати</option>
+                <option value="ukr">Україна</option>
+                <option value="yaponia">Японія</option>
+                <option value="germany">Германія</option>
+                <option value="amerika">Америка</option>
+                <option value="china">Китай</option>
+                <option value="poland">Польща</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="mb20 search div cell">
+            <span>Ціна</span>
+            <div class="input cena year">
+              <input class="input reg aut mr10" type="text" name="min_cena" placeholder="від">
+              <input class="input reg aut " type="text" name="max_cena" placeholder="до">
+            </div>
+          </div>
+
+          <div class="mb20 search div cell">
+            <span>Рік випуску</span>
+            <div class="input cena year">
+              <select class="mr10" name="rik_vipusku" id="select4">
+                <option value="0">від</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+              <select name="rik_vipusku" id="select5">
+                <option value="0">до</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <span class="mb10">Характеристики</span>
+            <fieldset class="mt5 mb10 checkbox radio">
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="pobita" value="yes">
+                  <span>Бита</span>
+                </label>
+              </div>
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="u_krediti" value="yes">
+                  <span>У кредиті</span>
+                </label>
+              </div>
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="nerozmitnena" value="yes">
+                  <span>Нерозмитнена</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="mb20 search div cell">
+            <span>Тип палива</span>
+            <label class="option">
+              <select name="tip_paliva" id="select6">
+                <option value="val1" disabled selected>Обрати</option>
+                <option value="val2">Електро</option>
+                <option value="val3">Бензин</option>
+                <option value="val4">Газ</option>
+              </select>
+            </label>
+          </div>
+
+          <div>
+            <span>Коробка передач</span>
+            <fieldset class="mb20 korob">
+              <div class="mb10">
+                <label>
+                  <input type="radio" name="korobka_peredach" value="avtomat">
+                  <span>Автомат</span>
+                </label>
+              </div>
+              <div class="mb10">
+                <label>
+                  <input type="radio" name="korobka_peredach" value="mehanika">
+                  <span>Механіка</span>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="korobka_peredach" value="variator">
+                  <span>Варіатор</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="mb20">
+            <span>Колір</span>
+            <input class="search div cell" style="padding: 5px 5px;" type="color" name="color"
+              onchange="(e) => console.log(e.target.value)">
+          </div>
+
+          <div>
+            <span class="mb10">Комфорт</span>
+            <fieldset class="mt5 mb20 checkbox radio">
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="bort_komp" value="yes">
+                  <span>Бортовий комп’ютер</span>
+                </label>
+              </div>
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="klimat_control" value="yes">
+                  <span>Клімат контроль </span>
+                </label>
+              </div>
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="shkyrianyi_salon" value="yes">
+                  <span>Шкіряний салон</span>
+                </label>
+              </div>
+              <div class="checkbox cell">
+                <label>
+                  <input type="checkbox" name="kondicioner" value="yes">
+                  <span>Кондиціонер</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="mb20">
+              <input class="button green" type="submit" value="Пошук">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

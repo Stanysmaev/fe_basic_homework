@@ -46,7 +46,11 @@ a:hover {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  /* max-width: 1140px; */
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -80,7 +84,6 @@ a:hover {
   display: inline-block;
   color: #414042;
   line-height: 1.4;
-  margin-bottom: 20px;
   width: 100%;
   font-size: 16px;
 }
@@ -90,7 +93,6 @@ a:hover {
   color: #414042;
   border: 1px solid #e0e3e4;
   border-radius: 2px;
-  /* width: 308px; */
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
   width: 100%;
@@ -114,27 +116,84 @@ a:hover {
   background-color: #84ca08;
 }
 
-/* input,
-textarea,
-select {
+.sh1 {
+  font-size: 29px;
+  font-weight: 700;
+  margin-top: 100px;
   margin-bottom: 20px;
-  padding: 0.5rem 1rem;
-} */
-
-/* 
-.option input[type='checkbox'] + span {
-  color: red;
 }
 
-.option input[type='checkbox']:checked + span {
-  color: green;
+.search.block {
+  display: block;
+  background-color: #eff2f3;
+  padding: 15px;
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
 }
 
-p {
+.size14 {
+  font-size: 14px;
+}
+
+.search.div.cell {
+  display: grid;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding-left: 2px;
+  padding: 9px 12px;
+  border: 1px solid #e0e3e4;
+  background-color: white;
+  color: #303030;
+}
+
+.input.cena.year {
+  color: #303030;
+  display: inline-block;
+  display: flex;
+  flex-flow: inherit;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mb10 {
   margin-bottom: 10px;
 }
 
-textarea {
-  resize: none;
-  height: 8rem;
-} */
+.checkbox.radio {
+  width: 100%;
+  text-align: justify;
+  display: block ruby;
+  border: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.checkbox.cell {
+  display: block;
+  line-height: 1;
+  border: 1px solid #c5c8c9;
+  border-radius: 3px;
+  color: #256799;
+  padding: 10.5px 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.korob {
+  display: block;
+  line-height: 1;
+  border: 1px solid #c5c8c9;
+  border-radius: 3px;
+  color: #256799;
+  padding: 10.5px 10px;
+}
