@@ -24,3 +24,31 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* body {
+  font-size: 20px;
+  padding: 5rem;
+} */
+
+tr,
+th,
+td {
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+/* table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+tr td:last-child {
+  font-weight: 700;
+}
+
+.colorResult {
+  display: inline-block;
+  min-width: 2.5rem;
+  height: 1.5rem;
+}

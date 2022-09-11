@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home works</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <title>Home work 8</title>
   <link rel="stylesheet" href="./fonts/font.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -15,8 +15,196 @@
   <main>
     <section>
       <div class="container">
-        <h1>Lesson №_</h1>
+        <h1>Home work №8</h1>
       </div>
+
+      <div class="container">
+        <table>
+          <caption>Some table title</caption>
+          <colgroup>
+            <col style="background: yellow;">
+            <col>
+            <col>
+            <col>
+            <col style="font-weight: 700;">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>№_</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>age</th>
+              <th>summ</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Oleg</td>
+              <td rowspan="2">Driver</td>
+              <td>21</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Lena</td>
+              <td>19</td>
+              <td>1500</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Pavel</td>
+              <td>Director</td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>2</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>4</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </td>
+              <td>2000</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="4">Total</td>
+              <td>100500</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="container">
+        <table>
+          <caption>Календарь на 2000-какой-то год</caption>
+          <thead></thead>
+          <tbody>
+
+            <tr>
+              <td>
+                <table>
+                  <colgroup>
+                    <col style="background: yellow;">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>№ нед</th>
+                      <th>Пн</th>
+                      <th>Вт</th>
+                      <th>Ср</th>
+                      <th>Чт</th>
+                      <th>Пт</th>
+                      <th>Сб</th>
+                      <th>Вс</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td></td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                      <td>10</td>
+                      <td>11</td>
+                      <td>12</td>
+                      <td>13</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+
+              <td>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>№ нед</th>
+                      <th>Пн</th>
+                      <th>Вт</th>
+                      <th>Ср</th>
+                      <th>Чт</th>
+                      <th>Пт</th>
+                      <th>Сб</th>
+                      <th>Вс</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td>
+                <table>
+                  <thead></thead>
+                  <tbody></tbody>
+                </table>
+              </td>
+
+              <td>
+                <table>
+                  <thead></thead>
+                  <tbody></tbody>
+                </table>
+              </td>
+
+            </tr>
+
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+
+      <!-- <hr>
+      <div class="container">
+        <form>
+          <p>
+            <label>
+              <input type="number" min="0" max="100">
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="color" onchange="((e) => {
+                console.log(e.target.value)
+                console.log(e.target.nextElementSibling)
+                e.target.nextElementSibling.innerText = e.target.value;
+                e.target.nextElementSibling.backgroundColor = e.target.value;
+              })(event)">
+              <span class="colorResult" style="margin-top: 4px;"></span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="range" min="0" max="10" step="0.1" onchange="((e) => {
+                e.target.nextElementSibling.innerText = e.target.value;
+              })(event)">
+              <span></span>
+            </label>
+          </p>
+        </form>
+      </div> -->
     </section>
   </main>
   <footer></footer>
