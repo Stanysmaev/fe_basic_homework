@@ -16,6 +16,10 @@ html {
   color: #303030;
 }
 
+body {
+  background-color: #ccc;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
