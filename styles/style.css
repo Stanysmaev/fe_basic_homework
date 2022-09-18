@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 
 .container {
@@ -27,4 +27,33 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+  max-width: 330px;
+  padding: 0.5rem 1rem 1rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #eee;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.card .picture {
+  aspect-ratio: 5/3;
+  object-fit: cover;
+}
+
+.card .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card .description {
+  font-size: 14px;
+  color: #454545;
 }
