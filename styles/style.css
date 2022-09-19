@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: #eeeff1;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 79px;
+  margin-right: 42px;
+}
+
+nav {
+  padding-top: 79px;
+  padding-bottom: 162px;
+}
+
 img {
   max-width: 100%;
 }
@@ -20,6 +41,31 @@ body {
   /* background-color: #ccc; */
 }
 
+footer {
+  background: #34547a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -29,6 +75,66 @@ body {
   padding-right: 15px;
 }
 
+.active {
+  color: #34547a;
+}
+
+.inactive {
+  color: #000000;
+}
+
+.gray-background {
+  background: #eeeff1;
+}
+
+.blue-background {
+  background: #34547a;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.riba-p {
+  width: 540px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 65px;
+}
+
+button {
+  width: 225px;
+  height: 65px;
+  background: #34547a;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+  border: 0;
+
+  margin-bottom: 141px;
+}
+
+button:hover {
+  background: #3d6392;
+}
+
 .hidden {
   display: none;
 }
@@ -36,24 +142,81 @@ body {
 .card {
   display: inline-block;
   width: 100%;
-  max-width: 330px;
-  padding: 0.5rem 1rem 1rem;
-  margin: 1rem 0.5rem;
-  border: 1px solid #eee;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  max-width: 145px;
+  margin-right: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.card .picture {
-  aspect-ratio: 5/3;
-  object-fit: cover;
+.card img {
+  margin-right: 20px;
 }
 
-.card .title {
-  font-size: 1.5rem;
-  font-weight: 700;
+.card div {
+  display: inline-block;
+  vertical-align: bottom;
 }
 
-.card .description {
-  font-size: 14px;
-  color: #454545;
+.card h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.card p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.ss-h2-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-top: 112px;
+}
+
+.ss-h2-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+}
+
+.ss-p-1 {
+  max-width: 540px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin: 50px auto 100px auto;
+}
+
+.ss-p-2 {
+  max-width: 540px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin: 50px auto 57px auto;
 }
