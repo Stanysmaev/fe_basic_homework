@@ -10,14 +10,16 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  min-width: 1110px;
 }
 
 a {
   text-decoration: none;
   margin-top: 79px;
   margin-right: 42px;
+  font-weight: 400;
 }
 
 nav {
@@ -35,10 +37,6 @@ html {
   font-weight: 400;
   line-height: 1.5;
   color: #303030;
-}
-
-body {
-  /* background-color: #ccc; */
 }
 
 footer {
@@ -96,7 +94,7 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  line-height: 79px;
+  line-height: 50px;
   color: #000000;
   margin-bottom: 60px;
 }
@@ -133,6 +131,7 @@ button {
 
 button:hover {
   background: #3d6392;
+  cursor: pointer;
 }
 
 .hidden {
@@ -219,4 +218,9 @@ button:hover {
   text-align: center;
   color: #727272;
   margin: 50px auto 57px auto;
+}
+
+.footer_p {
+  font-family: 'Roboto-Light', sans-serif;
+  line-height: 12px;
 }
