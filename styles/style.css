@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: 'Bai Jamjuree', sans-serif; */
 }
 
 img {
@@ -21,7 +22,6 @@ img {
 }
 
 html {
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -29,7 +29,13 @@ html {
   color: #161513;
 }
 
+body {
+  /* max-width: 1440px;
+  background-color: var(--bg-site-color); */
+}
+
 button {
+  font-family: 'Bai Jamjuree', sans-serif;
   border: none;
   background: none;
 }
@@ -45,11 +51,17 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1440px;
+  min-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.container-content {
+  max-width: 1090px;
+  min-width: 1090px;
 }
 
 .text-center {
@@ -72,13 +84,25 @@ a {
   justify-content: space-between;
 }
 
+.float-left {
+  float: left;
+}
+
+.m16 {
+ margin: 0 16px;
+}
+
+.m8 {
+  margin: 0 8px;
+}
+
 .btn {
   display: inline-block;
   min-width: 126px;
   font-size: 16px;
   line-height: 1.5; /* 24px */
   color: var(--text-color);
-  padding: 9px;
+  padding: 8px 9px;
   text-align: center;
   border: 1px solid #161513;
   background: none;
@@ -126,10 +150,88 @@ a {
 }
 
 .navigation-site .nav-link {
-  padding-bottom: 7px;
+  padding-bottom: 2px;
   border-bottom: 1px solid #161513;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+/* ---------------------------MAIN----------------------------- */
+/* ---------------------section-about-man---------------------- */
+
+.section-about-man {
+  padding-top: 40px;
+  background-color: var(--bg-site-color);
+}
+
+.text-before-photo {
+  width: 674.17px;
+  height: 562.5px;
+}
+
+.big-text-about-man {
+  margin-top: 101px;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.56px;
+}
+
+.description-about-man {
+margin: 35px 0 40px 0;
+}
+
+.text-description-about-man {
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+.section-black-line {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--bg-site-color);
+  height: 362px;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.black-line {
+  background-color: var(--background-color-black);
+  color: var(--color-white);
+  width: 1511Ыpx;
+  height: 64px;
+  font-size: 18px;
+  line-height: 32px;
+  transform: rotate(-4.93deg);
+  padding-left: 35px;
+  margin: 111px 0 186px -20px;
+  position: absolute;
+  top: 0;
+  right: -61px;
+}
+
+.element-of-black-line {
+  display: inherit;
+  padding: 25px 0 17px 0;
+}
+
+.element-of-black-line > img {
+  margin-left: 20px;
+}
+
+/* ------------------------------------------------ */
+
+.left-side-text {
+  width: 351px;
+  height: 192px;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.56px;
 }
 
 
