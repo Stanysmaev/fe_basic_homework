@@ -29,11 +29,6 @@ html {
   color: #161513;
 }
 
-body {
-  /* max-width: 1440px;
-  background-color: var(--bg-site-color); */
-}
-
 button {
   font-family: 'Bai Jamjuree', sans-serif;
   border: none;
@@ -203,7 +198,7 @@ margin: 35px 0 40px 0;
 .black-line {
   background-color: var(--background-color-black);
   color: var(--color-white);
-  width: 1511Ыpx;
+  width: 1511px;
   height: 64px;
   font-size: 18px;
   line-height: 32px;
