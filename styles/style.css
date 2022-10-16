@@ -27,6 +27,7 @@ html {
   font-weight: 400;
   line-height: 1.5;
   color: #161513;
+  background-color: var(--bg-site-color);
 }
 
 button {
