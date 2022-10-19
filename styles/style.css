@@ -16,6 +16,10 @@ html {
   color: #303030;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -23,4 +27,21 @@ html {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+.card-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ccc;
+  min-height: 300px;
 }
