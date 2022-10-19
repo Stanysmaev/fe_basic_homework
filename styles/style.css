@@ -13,7 +13,7 @@ img {
 
 html {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
   color: #303030;
@@ -42,8 +42,6 @@ header {
 .header-desktop-hd {
   display: grid;
   justify-content: space-between;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
 }
 
 .box1 {
@@ -72,7 +70,14 @@ header {
 
 .container {
   width: 100%;
-  max-width: 1630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container.wide {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -107,16 +112,6 @@ header {
   font-size: 36px;
   line-height: 44px;
   color: #323264;
-}
-
-.header-text {
-  margin: 60px 160px;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 46px;
-  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .gray-header-menu {
@@ -222,7 +217,10 @@ nav a:hover {
 /* ---------------------------------------------------------------------------------------- */
 
 .header-text {
-  margin: 60px 120px;
+  font-weight: 700;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .wrapper {
@@ -233,14 +231,12 @@ nav a:hover {
 
 .card-wrap {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
 }
 
 .card {
-  display: inline-table;
-  width: 493.33px;
-  height: 462px;
+  /* display: inline-table; */
+  /* width: 493.33px;
+  height: 462px; */
 }
 
 .card h2 {
@@ -265,10 +261,10 @@ nav a:hover {
 
 .card img {
   border-radius: 12px;
-  object-fit: cover;
+  /* object-fit: cover;
   display: block;
   width: 493.33px;
-  height: 400px;
+  height: 400px; */
 }
 
 .card span {

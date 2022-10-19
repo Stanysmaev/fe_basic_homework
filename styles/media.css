@@ -1,5 +1,136 @@
-/* @media (max-width: 992px) {
+/* -------------------------------- Mobile ---------------------------------- */
+@media screen and (min-width: 375px) {
   .card-wrap {
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
-} */
+
+  .card img {
+    min-height: 300px;
+    max-width: 315px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    font-size: 30px;
+    line-height: 37px;
+    width: 315px;
+    height: 296px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .box1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .box2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background: #f5f5fa;
+    padding: 10px 200px;
+    justify-self: self-end;
+    margin-left: -50px;
+  }
+
+  .gray-header-menu {
+    justify-content: space-between;
+  }
+
+  .box3 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    /* justify-self: self-end; */
+    display: none;
+  }
+
+  .facebook,
+  .address,
+  .gray-dot {
+    display: none;
+  }
+
+  .logo {
+    /* width: 69.33px;
+    height: 32px; */
+  }
+
+  .slash {
+    width: 11.62px;
+    height: 26px;
+  }
+
+  .active-page {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  .phone {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    width: 104px;
+    height: 20px;
+    display: contents;
+  }
+
+  .language-buttons {
+    display: flex;
+  }
+}
+
+/* -------------------------------- Tablet SD ---------------------------------- */
+@media screen and (min-width: 768px) {
+  .card-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-text {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .card img {
+    min-height: 400px;
+  }
+}
+
+/* -------------------------------- Tablet HD ---------------------------------- */
+@media screen and (min-width: 1024px) {
+  .card-wrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* -------------------------------- Desktop HD ---------------------------------- */
+@media screen and (min-width: 1920px) {
+  .card-wrap {
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+}
+
+/* ------------------------------------ 2K -------------------------------------- */
+@media screen and (min-width: 1920px) {
+  .card-wrap {
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+}
+
+/* ------------------------------------ trening -------------------------------------- */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1630px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-wrap {
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+}
