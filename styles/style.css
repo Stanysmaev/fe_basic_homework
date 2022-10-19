@@ -1,7 +1,10 @@
+@import url('../fonts/font.css');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-y: hidden; */
 }
 
 img {
@@ -9,11 +12,58 @@ img {
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #303030;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #303030;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+header {
+  padding-top: 50px;
+}
+
+.header-desktop-hd {
+  display: grid;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+}
+
+.box1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.box2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.box3 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: self-end;
+}
+
+.margin-top-16 {
+  margin-top: 9px;
 }
 
 .hidden {
@@ -22,11 +72,157 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1630px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.slash {
+  width: 21px;
+  height: 47px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.active-page {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #323264;
+}
+
+.header-text {
+  margin: 60px 160px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gray-header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-header-menu div {
+  margin: 0 6px;
+}
+
+.language-buttons-element {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #b3b3ba;
+  width: 33px;
+  height: 25px;
+  padding: 5px 7px;
+}
+
+.language-buttons-element:hover {
+  padding: 5px 7px;
+  gap: 6px;
+  width: 33px;
+  height: 25px;
+  background: #f5f5fa;
+  border-radius: 8px;
+}
+
+.language-buttons {
+  margin: 0 0 !important;
+  display: contents;
+}
+
+.active-language {
+  padding: 5px 7px;
+  gap: 6px;
+  width: 33px;
+  height: 25px;
+  background: #f0145a !important;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #b3b3ba;
+}
+
+.phone {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #b3b3ba;
+}
+
+.gray-dot {
+  border-radius: 6px;
+  width: 6px;
+  height: 6px;
+  background: #e6e6f0;
+}
+
+.facebook {
+  display: contents;
+}
+
+.facebook:hover svg path {
+  fill: #f0145a;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #24a3ff;
+  margin-left: 12px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #24a3ff;
+}
+
+.active-navigation {
+  color: #f0145a;
+  border-bottom: 2px solid #f0145a !important;
+}
+
+.navigation {
+  padding-bottom: 1px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.header-text {
+  margin: 60px 120px;
 }
 
 .wrapper {
@@ -38,10 +234,55 @@ html {
 .card-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 60px;
 }
 
 .card {
-  background-color: #ccc;
-  min-height: 300px;
+  display: inline-table;
+  width: 493.33px;
+  height: 462px;
+}
+
+.card h2 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  margin-bottom: 5px;
+}
+
+.card:hover h2 {
+  color: #f0145a;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+
+.card img {
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  width: 493.33px;
+  height: 400px;
+}
+
+.card span {
+  border-radius: 16px;
+  background: #f5f5fa;
+  width: 32px;
+  height: 32px;
+  margin-top: 15px;
+}
+
+.card a:hover span svg path {
+  stroke: #f0145a;
+}
+
+.card a:hover span {
+  background: #ededf7;
 }
