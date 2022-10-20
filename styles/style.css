@@ -109,16 +109,25 @@ header {
   height: 32px;
   opacity: 0;
   z-index: 3;
+  /* top: 100px; */
 }
 
 .burger {
   width: 32px;
   height: 32px;
-  /* border: 1px solid; */
   position: relative;
   z-index: 2;
   float: right;
+  top: 12px;
 }
+
+input:active + .burger {
+  width: 32px;
+  height: 32px;
+  background: #e6e6f0;
+  border-radius: 8px;
+}
+
 .burger span {
   display: inline-block;
   width: 18px;
@@ -131,18 +140,18 @@ header {
 }
 
 .burger span:first-child {
-  top: 21px;
+  top: 9px;
   left: 7px;
 }
 
 .burger span:nth-child(2),
 .burger span:nth-child(3) {
-  top: 27px;
+  top: 15px;
   left: 7px;
 }
 
 .burger span:last-child {
-  top: 33px;
+  top: 21px;
   left: 7px;
 }
 
@@ -162,11 +171,10 @@ header {
 }
 
 .checkbox:checked + .burger span {
-  background-color: #fff;
+  background-color: #ec6f5d;
 }
 
 .checkbox:checked + .burger + .burger-nav {
-  /* display: flex; */
   transform: translateX(0%);
   transition: all 0.2s linear;
 }
@@ -179,10 +187,11 @@ header {
   inset: 0;
   padding-top: calc(50px + 2rem);
   padding-left: 1rem;
-  background-color: rgba(30, 30, 30, 0.75);
+  background: #323264;
+  opacity: 0.7;
   color: #fff;
   font-size: 2rem;
-  transform: translateX(-100%);
+  transform: translateY(100%);
 }
 
 .gap-rem {
