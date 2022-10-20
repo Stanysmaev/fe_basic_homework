@@ -53,6 +53,10 @@ header {
   justify-content: space-between;
 }
 
+.navigation {
+  display: none;
+}
+
 .mt108 {
   margin-top: 108px;
 }
