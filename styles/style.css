@@ -128,10 +128,10 @@ input:active + .burger {
   z-index: 0;
 }
 
-input:checked {
+/* input:checked {
   top: 293px;
   left: 323px;
-}
+} */
 
 .burger span {
   display: inline-block;
@@ -417,12 +417,6 @@ nav .nav-element a:hover {
 .card-wrap {
   display: grid;
   justify-items: center;
-}
-
-.card {
-  /* display: inline-table; */
-  /* width: 493.33px;
-  height: 462px; */
 }
 
 .card h2 {
