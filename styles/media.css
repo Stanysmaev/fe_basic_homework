@@ -39,6 +39,7 @@
     justify-content: space-between;
   }
 
+  .footer-gray-dot,
   .facebook,
   .address,
   .gray-dot {
@@ -70,6 +71,27 @@
 
   .language-buttons {
     display: flex;
+  }
+
+  .footer-address-a {
+    margin-top: 10px;
+  }
+
+  .f-circle {
+    margin-top: 21px;
+  }
+
+  .phone-footer {
+    margin-top: 11px;
+  }
+
+  .email-footer {
+    margin-top: 10px;
+  }
+
+  .footer-gray-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
