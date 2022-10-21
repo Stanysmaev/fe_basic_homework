@@ -450,6 +450,10 @@
     margin-bottom: 0px;
   }
 
+  .card-wrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .card img {
     min-width: 400px;
     object-fit: cover;
@@ -465,11 +469,41 @@
 
 /* -------------------------------- Desktop HD ---------------------------------- */
 @media screen and (min-width: 1920px) {
+  .container.wide {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .card {
+    max-width: 493.33px;
+    margin-bottom: 0px;
+  }
+
   .card-wrap {
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card img {
+    min-width: 493.33px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    width: 1360px;
+    margin-top: -80px;
+    margin-bottom: 30px;
   }
 }
-
 /* ------------------------------------ 2K -------------------------------------- */
 @media screen and (min-width: 1920px) {
   .card-wrap {
