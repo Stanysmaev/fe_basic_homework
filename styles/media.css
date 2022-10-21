@@ -103,14 +103,15 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1320px;
   }
   .container.wide {
     margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 648px;
   }
 
   .gray-dot {
@@ -120,6 +121,8 @@
   .card-wrap {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
+    max-width: 648px;
+    justify-content: center;
   }
 
   .card {
@@ -249,6 +252,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: -2px;
+    justify-content: center;
   }
   .grid .f-item2 {
     grid-area: b;
@@ -259,6 +263,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 18px;
+    justify-content: center;
   }
   .grid .f-item3 {
     grid-area: c;
@@ -295,6 +300,13 @@
 
 /* -------------------------------- Tablet HD -------------------------------------------------------- */
 @media screen and (min-width: 1024px) {
+  .container.wide {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 904px;
+  }
+
   .card-wrap {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -415,6 +427,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 28px !important;
+    justify-content: flex-start;
   }
   .grid .f-item2 {
     grid-column: 1/2;
@@ -425,6 +438,7 @@
     align-items: center;
     margin-top: 18px !important;
     margin-bottom: 30px !important;
+    justify-content: flex-start;
   }
   .grid .f-item3 {
     grid-column: 2/3;
@@ -440,11 +454,19 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px;
+    width: 904px;
   }
 }
 
 /* -------------------------------- Desktop SD ---------------------------------- */
 @media screen and (min-width: 1440px) {
+  .container.wide {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1320px;
+  }
+
   .card {
     max-width: 400px;
     margin-bottom: 0px;
@@ -465,6 +487,13 @@
     margin-top: -80px;
     margin-bottom: 30px;
   }
+
+  .footer-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    width: 1320px;
+  }
 }
 
 /* -------------------------------- Desktop HD ---------------------------------- */
@@ -472,8 +501,9 @@
   .container.wide {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1600px;
   }
 
   .container {
@@ -503,10 +533,49 @@
     margin-top: -80px;
     margin-bottom: 30px;
   }
+
+  .footer-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    width: 1600px;
+  }
 }
 /* ------------------------------------ 2K -------------------------------------- */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2080px) {
+  .container.wide {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1600px;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .card {
+    max-width: 493.33px;
+    margin-bottom: 0px;
+  }
+
   .card-wrap {
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card img {
+    min-width: 493.33px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    width: 1360px;
+    margin-top: -80px;
+    margin-bottom: 30px;
   }
 }

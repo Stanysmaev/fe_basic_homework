@@ -108,7 +108,8 @@ header {
 
 .checkbox {
   position: absolute;
-  left: 328px;
+  /* left: 328px; */
+  margin-left: 72px;
   top: 57px;
   width: 32px;
   height: 32px;
@@ -135,7 +136,7 @@ input:active + .burger {
 
 /* input:checked {
   top: 293px;
-  left: 323px;
+  left: 257px;
 } */
 
 .burger span {
@@ -194,7 +195,6 @@ input:active + .burger {
   bottom: 0px;
   background: #ffffff;
   border-radius: 12px 12px 0px 0px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
