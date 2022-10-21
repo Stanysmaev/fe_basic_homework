@@ -94,7 +94,7 @@
   }
 }
 
-/* -------------------------------- Tablet SD ---------------------------------- */
+/* -------------------------------- Tablet SD ----------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
@@ -109,17 +109,34 @@
     padding-right: 60px;
   }
 
+  .gray-dot {
+    margin: 0 6px;
+  }
+
   .card-wrap {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    max-width: 294px;
+  }
+
+  .card img {
+    height: 400px;
+    min-width: 294px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-wrap {
+    gap: 60px;
   }
 
   .header-text {
     font-size: 38px;
     line-height: 46px;
-  }
-
-  .card img {
-    min-height: 400px;
+    margin-top: -48px !important;
+    margin-bottom: 60px !important;
   }
 
   .logo {
@@ -183,27 +200,95 @@
     grid-area: a;
     grid-column: 1/3;
     grid-row: 2/3;
+    margin-top: 20px;
   }
   .grid .item2 {
     grid-area: b;
     grid-column: 1/2;
     grid-row: 1/2;
     background: none;
-    /* align-items: center; */
+    margin-top: 41px !important;
   }
   .grid .item3 {
     grid-area: c;
     grid-column: 2/3;
     grid-row: 1/2;
     background: none;
-    /* align-items: center; */
-    /* display: flex; */
     height: 45px;
+    margin-top: 40px !important;
   }
   .grid .item4 {
     grid-area: d;
     grid-column: 1/3;
     grid-row: 3/4;
+    margin-top: -1px !important;
+  }
+
+  .footer-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 125px;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      'a'
+      'b'
+      'с';
+  }
+
+  .grid .f-item1 {
+    grid-area: a;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -2px;
+  }
+  .grid .f-item2 {
+    grid-area: b;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: #f5f5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+  }
+  .grid .f-item3 {
+    grid-area: c;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background: #f5f5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-address-a {
+    margin-top: 0px;
+  }
+
+  .f-circle {
+    margin-top: 0px;
+  }
+
+  .phone-footer {
+    margin-top: 0px;
+  }
+
+  .email-footer {
+    margin-top: 0px;
+  }
+
+  .footer-gray-text {
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 }
 
