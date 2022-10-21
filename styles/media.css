@@ -293,7 +293,7 @@
   }
 }
 
-/* -------------------------------- Tablet HD ---------------------------------- */
+/* -------------------------------- Tablet HD -------------------------------------------------------- */
 @media screen and (min-width: 1024px) {
   .card-wrap {
     grid-template-columns: repeat(3, 1fr);
@@ -309,11 +309,6 @@
     object-fit: cover;
     display: block;
   }
-
-  /* .header-text {
-    margin-top: -48px !important;
-    margin-bottom: 60px !important;
-  } */
 
   .buttons-before-Tablet-HD {
     display: none !important;
@@ -448,6 +443,26 @@
   }
 }
 
+/* -------------------------------- Desktop SD ---------------------------------- */
+@media screen and (min-width: 1440px) {
+  .card {
+    max-width: 400px;
+    margin-bottom: 0px;
+  }
+
+  .card img {
+    min-width: 400px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    width: 1080px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+  }
+}
+
 /* -------------------------------- Desktop HD ---------------------------------- */
 @media screen and (min-width: 1920px) {
   .card-wrap {
@@ -457,19 +472,6 @@
 
 /* ------------------------------------ 2K -------------------------------------- */
 @media screen and (min-width: 1920px) {
-  .card-wrap {
-    /* grid-template-columns: repeat(3, 1fr); */
-  }
-}
-
-/* ------------------------------------ trening -------------------------------------- */
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1630px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .card-wrap {
     /* grid-template-columns: repeat(3, 1fr); */
   }
