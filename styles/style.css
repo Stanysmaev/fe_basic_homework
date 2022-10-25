@@ -290,6 +290,14 @@ input:active + .burger {
   justify-content: space-between;
 }
 
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
 .slash {
   width: 21px;
   height: 47px;
@@ -570,4 +578,118 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+
+.contact-black-text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+  margin-top: 30px;
+}
+.contact-phone {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466e;
+}
+.contact-email {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #24a3ff;
+  margin-top: 15px;
+}
+
+.contact-facebook {
+  margin-top: 0 !important;
+}
+
+.contact-facebook-row h2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.form-gray-background {
+  padding: 30px;
+  background-color: #f5f5fa;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.form-text-gradient {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.form-gray-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+  margin: 15px 0;
+}
+
+.form-input-text {
+  padding: 15px;
+  gap: 10px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.form-input-text::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b3b3ba;
+}
+
+.form-input-text:nth-child(4) {
+  min-height: 130px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-input-text:last-child {
+  margin-bottom: 30px;
+  min-width: 255px;
+}
+
+.form-input-button {
+  padding: 18px 30px;
+  min-width: 255px;
+  height: 56px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.gray-rectangle {
+  height: 4px;
+  background: #e6e6f0;
+  margin: 30px 0;
 }
