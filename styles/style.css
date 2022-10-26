@@ -513,10 +513,6 @@ footer {
   display: contents;
 }
 
-.footer-facebook:hover {
-  color: #f0145a;
-}
-
 .footer-facebook:hover svg path {
   fill: #f0145a;
 }
@@ -756,4 +752,12 @@ textarea:focus {
 
 .footer-contact {
   margin-top: 30px;
+}
+
+.red-text-facebook {
+  display: flex;
+}
+
+.red-text-facebook:hover h2 {
+  color: #f0145a;
 }
