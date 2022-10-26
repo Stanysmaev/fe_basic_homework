@@ -1,3 +1,202 @@
+@media screen and (min-width: 0px) {
+  .logo {
+    margin: 15px 0 10px 0;
+  }
+  .logo a img {
+    width: 69.33px;
+    height: 32px;
+  }
+
+  .card {
+    max-width: 260px;
+  }
+  .card-wrap {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .card img {
+    height: 300px;
+    min-width: 0px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    font-size: 30px;
+    line-height: 37px;
+    width: 315px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+  }
+
+  .gray-header-menu {
+    display: flex;
+    justify-self: end;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .footer-gray-dot,
+  .facebook,
+  .address,
+  .gray-dot {
+    display: none;
+  }
+
+  .buttons-after-Tablet-HD {
+    display: none !important;
+  }
+
+  .slash {
+    width: 11.62px;
+    height: 26px;
+  }
+
+  .active-page {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  .phone {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    width: 104px;
+    height: 20px;
+    display: contents;
+  }
+
+  .language-buttons {
+    display: flex;
+  }
+
+  .footer-address-a {
+    margin-top: 10px;
+  }
+
+  .f-circle {
+    margin-top: 21px;
+  }
+
+  .phone-footer {
+    margin-top: 11px;
+  }
+
+  .email-footer {
+    margin-top: 10px;
+  }
+
+  .footer-gray-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* -------------------------------- Mobile (low screen) ---------------------------------- */
+@media screen and (min-width: 320px) {
+  .logo {
+    margin: 15px 0 10px 0;
+  }
+  .logo a img {
+    width: 69.33px;
+    height: 32px;
+  }
+
+  .card {
+    max-width: 260px;
+  }
+  .card-wrap {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .card img {
+    height: 300px;
+    min-width: 260px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .header-text {
+    font-size: 30px;
+    line-height: 37px;
+    width: 315px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+  }
+
+  .gray-header-menu {
+    display: flex;
+    justify-self: end;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .footer-gray-dot,
+  .facebook,
+  .address,
+  .gray-dot {
+    display: none;
+  }
+
+  .buttons-after-Tablet-HD {
+    display: none !important;
+  }
+
+  .slash {
+    width: 11.62px;
+    height: 26px;
+  }
+
+  .active-page {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  .phone {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    width: 104px;
+    height: 20px;
+    display: contents;
+  }
+
+  .language-buttons {
+    display: flex;
+  }
+
+  .footer-address-a {
+    margin-top: 10px;
+  }
+
+  .f-circle {
+    margin-top: 21px;
+  }
+
+  .phone-footer {
+    margin-top: 11px;
+  }
+
+  .email-footer {
+    margin-top: 10px;
+  }
+
+  .footer-gray-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
 /* -------------------------------- Mobile ---------------------------------- */
 @media screen and (min-width: 375px) {
   .logo {
@@ -112,6 +311,17 @@
     padding-left: 0;
     padding-right: 0;
     max-width: 648px;
+  }
+
+  .container.contact {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 648px;
+  }
+
+  .checkbox {
+    display: none;
   }
 
   .gray-dot {
@@ -296,6 +506,18 @@
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
+  .contact-black-text {
+    margin-top: 60px;
+  }
+
+  .form-gray-background {
+    margin-top: 60px;
+  }
+
+  .footer-contact {
+    margin-top: 60px;
+  }
 }
 
 /* -------------------------------- Tablet HD -------------------------------------------------------- */
@@ -305,6 +527,18 @@
     padding-left: 0;
     padding-right: 0;
     max-width: 904px;
+  }
+
+  .container.contact {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 904px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .card-wrap {
@@ -456,6 +690,15 @@
     padding: 0px 0px;
     width: 904px;
   }
+
+  .gray-rectangle {
+    width: 422px;
+  }
+
+  .form-gray-background {
+    /* margin-top: 0px; */
+    width: 422px;
+  }
 }
 
 /* -------------------------------- Desktop SD ---------------------------------- */
@@ -465,6 +708,13 @@
     padding-left: 0;
     padding-right: 0;
     max-width: 1320px;
+  }
+
+  .container.contact {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1080px;
   }
 
   .card {
@@ -494,6 +744,14 @@
     padding: 0px 0px;
     width: 1320px;
   }
+
+  .gray-rectangle {
+    width: 510px;
+  }
+
+  .form-gray-background {
+    width: 510px;
+  }
 }
 
 /* -------------------------------- Desktop HD ---------------------------------- */
@@ -511,6 +769,13 @@
     margin-right: auto;
     padding-left: 160px;
     padding-right: 160px;
+  }
+
+  .container.contact {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1360px;
   }
 
   .card {
@@ -539,6 +804,14 @@
     margin-right: auto;
     padding: 0px 0px;
     width: 1600px;
+  }
+
+  .gray-rectangle {
+    width: 650px;
+  }
+
+  .form-gray-background {
+    width: 650px;
   }
 }
 /* ------------------------------------ 2K -------------------------------------- */
