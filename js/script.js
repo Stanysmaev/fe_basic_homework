@@ -9,10 +9,11 @@ $('#mySlide').slick({
 });
 
 $('.showPopup').click(function() {
-  $('.modal-wrapper').addClass('.active-new');
+  $('.modal-wrapper').addClass('active-new');
 })
 
-$('.modal-wrapper').click(function(event) {
-  console.log(event);
-  $('.modal-wrapper').removeClass('.active-new');
+$('.modal-wrapper, .modal-window .close').click(function(event) {
+  if (event.target == event.currentTarget) {
+    $('.modal-wrapper').removeClass('active-new');
+  }
 })

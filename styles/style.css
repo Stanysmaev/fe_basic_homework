@@ -797,7 +797,8 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  border-color: rgba(0, 0, 0, 0.75);
+  /* border-color: rgba(0, 0, 0, 0.75); */
+  background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   inset: 0;
 }
@@ -807,13 +808,16 @@ textarea:focus {
 }
 
 .modal-window {
-  border-color: white;
+  /* border-color: white; */
+  background-color: white;
   padding: 2rem;
   border-radius: 1rem;
   width: 100%;
-  min-width: 500px;
+  /* min-width: 500px; */
+  max-width: 500px;
   position: relative;
 }
+
 .modal-window .close {
   position: absolute;
   top: 0.5rem;
