@@ -649,7 +649,7 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   margin-bottom: 30px;
 }
 
@@ -760,4 +760,64 @@ textarea:focus {
 
 .red-text-facebook:hover h2 {
   color: #f0145a;
+}
+
+.burger-new {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+}
+
+.burger-new span {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#mySlide .item {
+  box-shadow: 0 0 20px rgba(50, 50, 50, 0.25);
+}
+
+.slick-dots li button::before {
+  font-size: 16px;
+  opacity: 0.2;
+  color: #24a3ff;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #24a3ff;
+}
+
+.modal-wrapper {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  inset: 0;
+}
+
+.modal-wrapper.active-new {
+  display: flex;
+}
+
+.modal-window {
+  border-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  min-width: 500px;
+  position: relative;
+}
+.modal-window .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
 }

@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
   <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick-theme.css">
+
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/media.css">
 </head>
@@ -96,46 +99,31 @@
 
   <main class="">
     <section class="container contact flex justify-center column">
-      <div class="flex column">
-        <h2 class="contact-black-text">Kyiv,<br>Mechnikova str, 14</h2>
-        <div class="gray-rectangle"></div>
-        <a class="contact-phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
-        <a class="contact-email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
-        <div class="gray-rectangle"></div>
-        <div class="contact-facebook-row flex row">
-          <div class="red-text-facebook">
-            <a class="footer-facebook" href="https://www.facebook.com/" target="_blank">
-              <svg class="f-circle contact-facebook " width="38" height="38" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_22721_6812)">
-                  <path
-                    d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
-                    fill="#24A3FF" />
-                </g>
-              </svg>
-              <h2 class="footer-facebook">Our page<br>on facebook</h2>
-            </a>
-          </div>
+      <div class="container">
+        <h1>lesson17</h1>
+        <p class="burger-new active-new">
+          <span></span><span></span><span></span><span></span>
+        </p>
+        <button class="showPopup">Show popup</button>
+      </div>
 
+      <div class="container">
+        <div id="mySlide" class="your-class main-slide">
+          <div class="item">
+            <h2>your content 1</h2>
+            <img src="./images/Team-1.jpg" alt="team1">
+          </div>
+          <div class="item">
+            <h2>your content 2</h2>
+            <img src="./images/Team-1.jpg" alt="team1">
+          </div>
+          <div class="item">
+            <h2>your content 3</h2>
+            <img src="./images/Team-1.jpg" alt="team1">
+          </div>
         </div>
       </div>
-
-      <div class="form-gray-background">
-        <form action="https://fom.in.ua/echo" method="post">
-          <h2 class="form-text-gradient">We would like to help you</h2>
-          <input class="form-input-text" id="name" type="text" name="first_name" placeholder="Name" required>
-          <p></p>
-          <textarea class="form-input-text" name="message" id="message" cols="30" rows="10" placeholder="Message"
-            required></textarea>
-          <h2 class="form-gray-text">How to answer you?</h2>
-          <input class="form-input-text" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="Phone number" required>
-          <input class="form-input-text" type="email" name="email" pattern="[^@\s]+@[^@\s]+"
-            title="Invalid email address" placeholder="Email" required>
-          <input class="form-input-button" type="submit" value="Send message">
-        </form>
-      </div>
-
+      <button class="showPopup">Show popup</button>
     </section>
   </main>
 
@@ -171,6 +159,21 @@
     </div>
   </footer>
 
+  <div class="modal-wrapper">
+    <div class="modal-window">
+      <span class="close">&times;</span>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, blanditiis?</p>
+      <form>
+        <input type="text" placeholder="email">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
