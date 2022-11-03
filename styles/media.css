@@ -387,6 +387,7 @@
     display: flex;
   }
 
+  .gray-capacity-background,
   .gray-background,
   .burger {
     display: none;
