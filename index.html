@@ -17,102 +17,215 @@
 </head>
 
 <body>
-  <header class="container wide grid">
-    <div class="header-desktop-hd ">
-      <div class="logo item1">
-        <a href="#!">
-          <img src="./images/homepage/Logo.png" alt="logo-name">
-        </a>
-        <img src="./images/Slash.png" alt="Slash" class="slash">
-        <a href="#!">
-          <h2 class="active-page-white">services</h2>
-        </a>
-      </div>
+  <header class="container wide block z-index-1">
+    <div class="grid">
+      <div class="header-desktop-hd ">
+        <div class="logo item1">
+          <a href="./index.html">
+            <img src="./images/homepage/Logo.png" alt="logo-name">
+          </a>
+          <img src="./images/Slash.png" alt="Slash" class="slash">
+          <a href="./index.html">
+            <h2 class="active-page-white">services</h2>
+          </a>
+        </div>
 
-      <div class="color-white background-none language-buttons item2 buttons-before-Tablet-HD">
-        <button class="color-white language-buttons-element">УК</button>
-        <button class="color-white language-buttons-element">РУ</button>
-        <button class="language-buttons-element active-language">EN</button>
-      </div>
-
-
-      <div class="color-white background-none header-gray-text item3">
-        <div class="background-none language-buttons item2 buttons-after-Tablet-HD">
+        <div class="color-white background-none language-buttons item2 buttons-before-Tablet-HD">
           <button class="color-white language-buttons-element">УК</button>
           <button class="color-white language-buttons-element">РУ</button>
           <button class="language-buttons-element active-language">EN</button>
         </div>
-        <div class="gray-dot"></div>
-        <h4 class="address">Kyiv, Mechnikova str, 14/1</h4>
-        <div class="gray-dot"></div>
-        <div>
-          <a class="color-white phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
 
+
+        <div class="color-white background-none header-gray-text item3">
+          <div class="background-none language-buttons item2 buttons-after-Tablet-HD">
+            <button class="color-white language-buttons-element">УК</button>
+            <button class="color-white language-buttons-element">РУ</button>
+            <button class="language-buttons-element active-language">EN</button>
+          </div>
+          <div class="gray-dot"></div>
+          <h4 class="address">Kyiv, Mechnikova str, 14/1</h4>
+          <div class="gray-dot"></div>
+          <div>
+            <a class="color-white phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
+
+          </div>
+          <div class="gray-dot"></div>
+          <a href="https://www.facebook.com/" class="facebook" target="_blank">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
+                fill="#B3B3BA" />
+            </svg>
+          </a>
         </div>
-        <div class="gray-dot"></div>
-        <a href="https://www.facebook.com/" class="facebook" target="_blank">
-          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
-              fill="#B3B3BA" />
-          </svg>
-        </a>
-      </div>
 
-      <div class="item4">
-        <div>
-          <nav class="navigation">
-            <a class="nav-element" href="./pages/about.html">about us</a>
-            <a class="nav-element" href="./pages/services.html">services</a>
-            <a class="nav-element" href="./pages/team.html">team</a>
-            <a class="nav-element" href="./pages/publications.html">publications</a>
-            <a class="nav-element" href="./pages/contact.html">contact</a>
+        <div class="item4">
+          <div>
+            <nav class="navigation">
+              <a class="nav-element" href="./pages/about.html">about us</a>
+              <a class="nav-element" href="./pages/services.html">services</a>
+              <a class="nav-element" href="./pages/team.html">team</a>
+              <a class="nav-element" href="./pages/publications.html">publications</a>
+              <a class="nav-element" href="./pages/contact.html">contact</a>
+            </nav>
+          </div>
+
+          <input type="checkbox" class="checkbox">
+          <div class="burger">
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+          </div>
+          <nav class="burger-nav flex gap-rem">
+            <div class="white-container white-container-fix">
+              <a class="burger-cross" href="#!">
+                <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                  <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                </svg>
+
+              </a>
+              <a href="#!">about us</a>
+              <a href="#!">послуги</a>
+              <a href="./pages/team.html">команда</a>
+              <a href="#!">публікації</a>
+              <a class="active-burger-navigation" href="./pages/contact.html">контакти</a>
+            </div>
           </nav>
         </div>
 
-        <input type="checkbox" class="checkbox">
-        <div class="burger">
-          <span class="burger-white"></span>
-          <span class="burger-white"></span>
-          <span class="burger-white"></span>
-          <span class="burger-white"></span>
-        </div>
-        <nav class="burger-nav flex gap-rem">
-          <div class="white-container">
-            <a class="burger-cross" href="#!">
-              <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
-              </svg>
-
-            </a>
-            <a href="#!">about us</a>
-            <a href="#!">послуги</a>
-            <a href="./pages/team.html">команда</a>
-            <a href="#!">публікації</a>
-            <a class="active-burger-navigation" href="./contact.html">контакти</a>
-          </div>
-        </nav>
       </div>
-
+      <div class="gray-capacity-background"></div>
     </div>
-    <div class="gray-capacity-background"></div>
   </header>
 
-  <main class="">
+  <main>
     <div class="background-gradient">
-      <section class="container contact flex justify-center column">
-        <div class="container">
-          <img class="big-h" src="./images/homepage/big_h.svg" alt="">
-          <h1>you legal solutions provider</h1>
-        </div>
+      <!-- <img class="big-h" src="./images/homepage/big_h.svg" alt=""> -->
+      <div class="big-h"></div>
+
+      <section class="container contact flex items-center column">
+        <h1 class="h-text">you legal solutions provider</h1>
+        <button class="button-h">
+          <img style="z-index: 3;" src="./images/homepage/button-h.svg" alt="button">
+        </button>
       </section>
+
+      <div class="info-under-h">
+        <ul class="urls nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="urls-info-under-h-element nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Consistent</button>
+          </li>
+          <li class="urls-info-under-h-element nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Customer oriented</button>
+          </li>
+          <li class="urls-info-under-h-element nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Innovative</button>
+          </li>
+          <li class="urls-info-under-h-element nav-item" role="presentation">
+            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+              type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Business
+              oriented</button>
+          </li>
+        </ul>
+        <div class="container tab-content" id="pills-tabContent">
+          <div class="gray-opacity-line"></div>
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <h3 class="h3-urls">We turn the idea of legal services</h3>
+            <p class="p-urls">Consolidating many years of experience and practice, the company's lawyers accompany
+              complex
+              projects and achieve a number of important decisions for the industry. Many of them form the practice of
+              applying the law of the sea in Ukraine.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+            tabindex="0">
+            <h3 class="h3-urls">We turn the idea of legal services</h3>
+            <p class="p-urls">Consolidating many years of experience and practice, the company's lawyers accompany
+              complex
+              projects and achieve a number of important decisions for the industry. Many of them form the practice of
+              applying the law of the sea in Ukraine.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            <h3 class="h3-urls">We turn the idea of legal services</h3>
+            <p class="p-urls">Consolidating many years of experience and practice, the company's lawyers accompany
+              complex
+              projects and achieve a number of important decisions for the industry. Many of them form the practice of
+              applying the law of the sea in Ukraine.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+            tabindex="0">
+            <h3 class="h3-urls">We turn the idea of legal services</h3>
+            <p class="p-urls">Consolidating many years of experience and practice, the company's lawyers accompany
+              complex
+              projects and achieve a number of important decisions for the industry. Many of them form the practice of
+              applying the law of the sea in Ukraine.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="container d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+            type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Consistent</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+            type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Customer oriented</button>
+          <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled"
+            type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Innovative</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+            type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Business oriented</button>
+          <!-- <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+            type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button> -->
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
+            tabindex="0">Consolidating many years of experience and practice, the company's lawyers accompany complex
+            projects and achieve a number of important decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.</div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+            tabindex="0">Consolidating many years of experience and practice, the company's lawyers accompany complex
+            projects and achieve a number of important decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.</div>
+          <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
+            tabindex="0">Consolidating many years of experience and practice, the company's lawyers accompany complex
+            projects and achieve a number of important decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.</div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
+            tabindex="0">Consolidating many years of experience and practice, the company's lawyers accompany complex
+            projects and achieve a number of important decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.</div>
+          <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
+            tabindex="0">Consolidating many years of experience and practice, the company's lawyers accompany complex
+            projects and achieve a number of important decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.</div> -->
+        </div>
+      </div>
+
+
+
+
+
     </div>
     <div class="background-gradient-2"></div>
     <div class="background-gradient-3"></div>
 
-
-    <section class="container contact flex justify-center column hidden">
+    <section class="container contact flex justify-center column">
       <div class="container">
         <h1>lesson17</h1>
         <p class="burger-new active-new">
@@ -139,6 +252,8 @@
       </div>
       <button class="showPopup">Show popup</button>
     </section>
+
+
 
   </main>
 
@@ -170,62 +285,7 @@
 
 
 
-  <div class="container d-flex align-items-start">
-    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
-        type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
-        type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-      <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled"
-        type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Disabled</button>
-      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
-        type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
-        type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-    </div>
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
-        tabindex="0">...</div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-        tabindex="0">...</div>
-      <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
-        tabindex="0">...</div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
-        tabindex="0">...</div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
-        tabindex="0">...</div>
-    </div>
-  </div>
 
-  <ul class="container nav nav-pills mb-3" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
-        type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
-    </li>
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-      tabindex="0">...</div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...
-    </div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...
-    </div>
-    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-      ...
-    </div>
-  </div>
 
 
 
