@@ -845,7 +845,7 @@ textarea:focus {
 
 .background-gradient {
   background: linear-gradient(
-    228.57deg,
+    265deg,
     #323264 11.93%,
     #323264 57.17%,
     #643e72 87.46%
@@ -1002,6 +1002,8 @@ textarea:focus {
 
 .blue-text-services {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .blue-text {
@@ -1011,13 +1013,56 @@ textarea:focus {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24a3ff;
+  margin-right: 2px;
 }
 
-/* ::-webkit-scrollbar-thumb {
-  opacity: 0%;
-} */
+.gradient-text-header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 30px;
+}
 
-/* стиль отвечающий за скролбар */
-::-webkit-scrollbar {
-  opacity: 0%;
+.services-card-icon {
+  width: 92px;
+  height: 92px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.services-card-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.services-card {
+  margin-bottom: 30px;
+}
+
+.services-card h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24a3ff;
+  margin-bottom: 15px;
+}
+
+.services-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.services {
+  padding-bottom: 30px;
 }
