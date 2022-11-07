@@ -295,6 +295,11 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  .big-h {
+    min-height: 600px !important;
+    background-size: cover;
+  }
 }
 
 /* -------------------------------- Tablet SD ----------------------------------------------------------- */
@@ -518,6 +523,11 @@
 
   .footer-contact {
     margin-top: 60px;
+  }
+
+  .big-h {
+    height: 1024px !important;
+    background-size: cover;
   }
 }
 
