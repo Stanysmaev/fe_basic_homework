@@ -29,3 +29,19 @@
 nav .nav-element:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 0.9) !important;
 }
+
+.language-buttons-element:hover {
+  background: #d9d9d92e;
+}
+
+.phone:hover {
+  color: #f0145a !important;
+}
+
+.phone-footer:hover {
+  color: #f0145a !important;
+}
+
+.publication-url:hover {
+  color: #f0145a !important;
+}
