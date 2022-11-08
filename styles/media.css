@@ -1015,6 +1015,46 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
   }
+
+  .team-slider-element {
+    display: flex !important;
+  }
+
+  .team-slider-element-img {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    border-radius: 12px 0 0 12px;
+  }
+
+  .clients {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* .gradient-text-header {
+    margin-bottom: 30px;
+  } */
+
+  .publications-cards-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .publication-card-element:nth-child(3) {
+    grid-column: 3;
+    margin-bottom: 0px;
+  }
+
+  .footer-gray-text-homepage {
+    margin-top: 28px;
+    /* margin-left: -26px; */
+  }
+
+  .margin-bottom-30px {
+    margin-bottom: 30px !important;
+  }
 }
 
 /* -------------------------------- Desktop SD ---------------------------------- */
