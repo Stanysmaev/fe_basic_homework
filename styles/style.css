@@ -1048,9 +1048,38 @@ textarea:focus {
   text-transform: uppercase;
   color: #24a3ff;
   margin-right: 2px;
+  display: flex;
+}
+
+.blue-text:hover {
+  color: #f0145a;
+  stroke: #f0145a;
+}
+
+.blue-text:hover svg path {
+  stroke: #f0145a;
+}
+
+.blue-text-arrow {
+  margin-top: 1px;
+}
+.blue-arrow {
+  margin-top: 1px;
 }
 
 .gradient-text-header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.gradient-text-footer {
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
@@ -1120,6 +1149,7 @@ textarea:focus {
   border-radius: 12px 12px 0 0;
   height: 500px;
   object-fit: cover;
+  width: 100%;
 }
 
 .team-slider-element-text h2 {
@@ -1156,10 +1186,6 @@ textarea:focus {
 }
 .team-slider-element .blue-text {
   margin-right: 0;
-}
-
-.blue-arrow {
-  margin: -2px 0 0 -1px;
 }
 
 .slick-dots {
@@ -1273,6 +1299,7 @@ textarea:focus {
   height: 200px;
   margin-bottom: 30px;
   object-fit: cover;
+  width: 100%;
 }
 
 .publication-url {
@@ -1294,8 +1321,8 @@ textarea:focus {
 }
 
 .publications-gray-line {
-  border: 2px solid #e6e6f0;
-  background-color: #e6e6f0;
+  border: 2px solid #a3a3ab;
+  background-color: #a3a3ab;
   margin: 15px 0;
 }
 
