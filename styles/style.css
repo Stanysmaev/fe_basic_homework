@@ -936,18 +936,24 @@ textarea:focus {
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.5);
   z-index: 1;
+  margin: -30px 0 0 0;
 }
 
-.button-h:hover {
+.href-button-h:hover .button-h {
   border: 2px solid #f0145a;
   stroke: #f0145a;
   transition: 0.3s;
   opacity: 0.5;
+  cursor: pointer;
 }
-.button-h:hover > img {
-  border: 2px solid #f0145a;
+
+.arrow-svg {
+  margin: 17px 0px 0 11px;
+}
+
+.href-button-h:hover .arrow-svg .button-arrow {
   stroke: #f0145a;
-  transition: 0.3s;
+  /* opacity: 0.5; */
 }
 
 .info-under-h {
@@ -1056,6 +1062,11 @@ textarea:focus {
   margin-bottom: 30px;
 }
 
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 .services-card-icon {
   width: 92px;
   height: 92px;
@@ -1098,10 +1109,6 @@ textarea:focus {
 .team-slider {
   margin-top: 30px;
 }
-
-/* #mySlide .item {
-  box-shadow: 0 0 20px rgba(50, 50, 50, 0.25);
-} */
 
 .team-slider-element {
   background: #f5f5fa;
@@ -1308,17 +1315,4 @@ textarea:focus {
   border: 1px solid #b1b1b1;
   margin: 0 0;
   background-color: #b1b1b1;
-}
-
-.button-arrow {
-  mask-image: url('../images/homepage/button-h.svg');
-}
-
-.button-arrow :hover {
-  height: 55px;
-  width: 62px;
-  stroke: #f0145a;
-  fill: #f0145a;
-  background-color: #000;
-  mask-image: url('../images/homepage/button-h.svg');
 }

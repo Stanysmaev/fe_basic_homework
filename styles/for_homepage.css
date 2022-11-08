@@ -11,3 +11,21 @@
 .footer-contact {
   margin-top: 0px;
 }
+
+.address {
+  margin-bottom: 0rem;
+}
+
+.nav-element {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #ffffff !important;
+  margin-right: 16px;
+  padding-bottom: 4px;
+}
+
+nav .nav-element:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9) !important;
+}
