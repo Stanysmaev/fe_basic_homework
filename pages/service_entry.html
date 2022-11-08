@@ -5,110 +5,244 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HomeWork_16</title>
+  <title>Homepage</title>
   <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="../assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="./assets/bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css"> -->
+
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
+  <link rel="stylesheet" href="../styles/for_homepage.css">
 </head>
 
 <body>
-  <header class="container wide grid">
-    <div class="header-desktop-hd">
-      <div class="logo item1">
-        <a href="#!">
-          <img src="../images/Logo.png" alt="logo-name">
-        </a>
-        <img src="../images/Slash.png" alt="Slash" class="slash">
-        <a href="#!">
-          <h2 class="active-page">contact</h2>
-        </a>
-      </div>
+  <header class="container-hw wide block z-index-1">
+    <div class="grid">
+      <div class="header-desktop-hd ">
+        <div class="logo item1">
+          <a href="../index.html">
+            <img src="../images/homepage/Logo.png" alt="logo-name">
+          </a>
+          <img src="../images/Slash.png" alt="Slash" class="slash slash-to-hide">
+          <a href="../index.html">
+            <h2 class="active-page-white active-page-white-to-hide">services</h2>
+          </a>
+        </div>
 
-      <div class="language-buttons item2 buttons-before-Tablet-HD">
-        <button class="language-buttons-element">УК</button>
-        <button class="language-buttons-element">РУ</button>
-        <button class="language-buttons-element active-language">EN</button>
-      </div>
-
-
-      <div class="header-gray-text item3">
-        <div class="language-buttons item2 buttons-after-Tablet-HD">
-          <button class="language-buttons-element">УК</button>
-          <button class="language-buttons-element">РУ</button>
+        <div class="color-white background-none language-buttons item2 buttons-before-Tablet-HD">
+          <button class="color-white language-buttons-element">УК</button>
+          <button class="color-white language-buttons-element">РУ</button>
           <button class="language-buttons-element active-language">EN</button>
         </div>
-        <div class="gray-dot"></div>
-        <h4 class="address">Kyiv, Mechnikova str, 14/1</h4>
-        <div class="gray-dot"></div>
-        <div>
-          <a class="phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
 
+
+        <div class="color-white background-none header-gray-text item3">
+          <div class="background-none language-buttons item2 buttons-after-Tablet-HD">
+            <button class="color-white language-buttons-element">УК</button>
+            <button class="color-white language-buttons-element">РУ</button>
+            <button class="language-buttons-element active-language">EN</button>
+          </div>
+          <div class="gray-dot"></div>
+          <h4 class="address">Kyiv, Mechnikova str, 14/1</h4>
+          <div class="gray-dot"></div>
+          <div style="margin-top: 2px;">
+            <a class="color-white phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
+          </div>
+          <div class="gray-dot"></div>
+          <a href="https://www.facebook.com/" class="facebook" target="_blank">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                fill="white" />
+            </svg>
+
+          </a>
         </div>
-        <div class="gray-dot"></div>
-        <a href="https://www.facebook.com/" class="facebook" target="_blank">
-          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
-              fill="#B3B3BA" />
-          </svg>
-        </a>
-      </div>
 
-      <div class="item4">
-        <div>
-          <nav class="navigation">
-            <a class="nav-element" href="#!">about us</a>
-            <a class="nav-element" href="#!">services</a>
-            <a class="nav-element" href="../team.html">team</a>
-            <a class="nav-element" href="#!">publications</a>
-            <a class="nav-element active-navigation" href="./contact.html">contact</a>
+        <div class="item4">
+          <div>
+            <nav class="navigation">
+              <a class="nav-element" href="../pages/about.html">about us</a>
+              <a class="nav-element active-navigation-services" href="../pages/services.html">services</a>
+              <a class="nav-element" href="../pages/team.html">team</a>
+              <a class="nav-element" href="../pages/publications.html">publications</a>
+              <a class="nav-element" href="../pages/contact.html">contact</a>
+            </nav>
+          </div>
+
+          <input type="checkbox" class="checkbox">
+          <div class="burger">
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+            <span class="burger-white"></span>
+          </div>
+          <nav class="burger-nav flex gap-rem">
+            <div class="white-container white-container-fix">
+              <a class="burger-cross" href="#!">
+                <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                  <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                </svg>
+
+              </a>
+              <a href="#!">about us</a>
+              <a href="#!">послуги</a>
+              <a href="./pages/team.html">команда</a>
+              <a href="#!">публікації</a>
+              <a class="active-burger-navigation" href="./pages/contact.html">контакти</a>
+            </div>
           </nav>
         </div>
 
-        <input type="checkbox" class="checkbox">
-        <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <nav class="burger-nav flex gap-rem">
-          <div class="white-container">
-            <a class="burger-cross" href="#!">
-              <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
-              </svg>
+      </div>
+      <div class="gray-capacity-background"></div>
+    </div>
+  </header>
 
-            </a>
-            <a href="#!">about us</a>
-            <a href="#!">послуги</a>
-            <a href="../team.html">команда</a>
-            <a href="#!">публікації</a>
-            <a class="active-burger-navigation" href="./contact.html">контакти</a>
+  <main>
+    <div class="background-gradient">
+      <div class="container-hw services-entry">
+        <div class="white-box">
+          <img src="../images/homepage/Ecommerce.svg" alt="Ecommerce">
+        </div>
+        <h3 class="services-entry-gradient-h3">IT and e-commerce</h3>
+        <p class="services-entry-gradient-p">An endless stream of contracts, tax issues, labor relations, corporate
+          papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house
+          lawyer.
+        <p>
+        <p class="services-entry-gradient-p">In addition, over time, the work will become the same type and
+          uninteresting for a full-time lawyer. And we
+          know very well how difficult it is to find a good candidate with experience in the field of information
+          technology in Ukraine.</p>
+      </div>
+
+      <div class="container-hw">
+        <button class="showPopup services-entry-popup">Free consultation</button>
+      </div>
+
+      <div class="container-hw">
+        <div class="services-entry-line"></div>
+      </div>
+
+      <div class="container-hw">
+        <h2>Services in this area:</h2>
+        <div>
+          <div>
+            <ul>
+              <li>support of investment projects for the development of port infrastructure;</li>
+              <li>certification of GTS, entering information about them in mandatory databases and registers;</li>
+              <li>registration of permits for the construction of port terminals;</li>
+              <li>registration of permit and other mandatory documentation required for carrying out activities in the
+                port (emission permit, conclusion on EIA, RTC, etc.);</li>
+            </ul>
           </div>
-        </nav>
+          <div>
+            <ul>
+              <li>support of procedures related to the lease of state property in the port;</li>
+              <li>support of procedures related to confirmation of the status of port operator, maritime agent, foreign
+                sailing line;</li>
+              <li>support of procedures related to the inclusion of the company within the port;</li>
+              <li>appeals against actions related to the illegal imposition of services in the port by monopoly
+                companies.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
-    <div class="gray-background"></div>
-  </header>
+    <div class="background-gradient-2"></div>
+    <div class="background-gradient-3"></div>
 
-  <main class="">
-    <section class="container contact flex justify-center column">
+
+
+    <section class="gray-publications-background">
+      <div class="container-hw publications-container">
+        <div class="flex blue-text-services publication-blue-text">
+          <a class="blue-text" href="./pages/publications.html">Publications
+            <svg class="blue-text-arrow" width="12" height="13" viewBox="0 0 12 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+            </svg>
+          </a>
+        </div>
+        <h2 class="gradient-text-footer">Recommended</h2>
+
+        <div class="publications-cards-table">
+          <div class="publication-card-element">
+            <img class="publication-card-element-img" src="../images/homepage/Publication-1.jpg" alt="publication 1">
+            <div class="container-hw publication-card-element-text">
+              <a class="publication-url" href="#!">Equity associate</a>
+              <p class="month-day">April 22</p>
+              <hr class="publications-gray-line">
+              <p class="publication-dark-text">I'm a jun on projects. I am a co-owner of a law firm. How it happened.
+                Before entering my parents told me that if I…</p>
+            </div>
+          </div>
+
+          <div class="publication-card-element">
+            <img class="publication-card-element-img" src="../images/homepage/Publication-2.jpg" alt="publication 1">
+            <div class="container-hw publication-card-element-text">
+              <a class="publication-url" href="#!">Penalty for the Good Corporation: what will happen to Google and
+                others
+                for violating the GDPR</a>
+              <p class="month-day">September 29</p>
+              <hr class="publications-gray-line">
+              <p class="publication-dark-text">And why the recovery of 50 million euros could be a fateful precedent
+                According to Mind.ua January 21 National Commission for Data Protection.</p>
+            </div>
+          </div>
+
+          <div class="publication-card-element">
+            <img class="publication-card-element-img publication-img-wide" src="../images/homepage/Publication-3.jpg"
+              alt="publication 1">
+            <div class="container-hw publication-card-element-text">
+              <a class="publication-url" href="#!">Millennial Testament</a>
+              <p class="month-day">August 19</p>
+              <hr class="publications-gray-line">
+              <p class="publication-dark-text">What and how modern vloggers, opinion leaders and crypto-millionaires
+                will
+                inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="container-hw line-before-footer">
+      </div>
+
     </section>
+
+
   </main>
 
+
+
+
+  <div class="container-hw hidden">
+    <h1>lesson17</h1>
+    <p class="burger-new active-new">
+      <span></span><span></span><span></span><span></span>
+    </p>
+    <button class="showPopup">Show popup</button>
+  </div>
+
+
+
+
+
+
   <footer class="footer-contact">
-    <div class="container wide">
-      <div class="footer-info grid">
-        <div class="f-item1">
+    <div class="container-hw wide">
+      <div class="footer-info footer-info-homepage grid">
+        <div class="f-item1 f-item1-homepage">
           <p class="footer-address-text">Kyiv, Mechnikova str., 14/1</p>
           <div class="footer-gray-dot"></div>
           <a class="footer-address-a" href="https://goo.gl/maps/7utPxPZbb4oHKLxK8" target="_blank">On map</a>
         </div>
 
-        <div class="f-item2">
+        <div class="f-item2 f-item2-homepage">
           <a class="footer-facebook" href="https://www.facebook.com/" target="_blank">
             <svg class="f-circle" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_22721_6812)">
@@ -124,13 +258,30 @@
           <a class="email-footer" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
         </div>
 
-        <div class="f-item3">
-          <p class="footer-gray-text">© 2021 HLEGAL Law company, LLC</p>
+        <div class="f-item3 f-item3-homepage">
+          <p class="footer-gray-text footer-gray-text-homepage">© 2021 HLEGAL Law company, LLC</p>
         </div>
       </div>
     </div>
   </footer>
 
+  <div class="modal-wrapper">
+    <div class="modal-window">
+      <span class="close">&times;</span>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, blanditiis?</p>
+      <form>
+        <input type="text" placeholder="email">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/jquery-3.6.1.min.js"></script>
+  <script src="../assets/slick-1.8.1/slick/slick.min.js"></script>
+  <script src="../assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../js/script.js"></script>
 </body>
 
 </html>

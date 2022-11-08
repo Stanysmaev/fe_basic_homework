@@ -13,6 +13,11 @@ nav .nav-element:hover {
   margin-left: -1px;
 }
 
+.service-url-element:hover h3 {
+  color: #f0145a;
+  transition: 0.2s;
+}
+
 @media screen and (min-width: 768px) {
   .grid .f-item1 {
     grid-area: a;
