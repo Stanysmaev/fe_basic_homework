@@ -749,6 +749,16 @@
     font-size: 38px;
     line-height: 46px;
   }
+
+  .services-page-gradient-text-header {
+    padding-top: 282px;
+  }
+
+  .active-page-white {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+  }
 }
 
 /* -------------------------------- Tablet HD -------------------------------------------------------- */
@@ -1282,7 +1292,7 @@
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
-    max-width: 1600px;
+    max-width: 1276px;
   }
 
   .container-hw {
