@@ -1480,3 +1480,118 @@ li::marker {
 .services-entry-publications-container {
   border-radius: 12px 12px 0px 0px;
 }
+
+.burger {
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger:active {
+  width: 32px;
+  height: 32px;
+  background: #e6e6f047;
+  border-radius: 8px;
+}
+
+.menu {
+  display: block;
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  background-color: rgba(50, 50, 100, 0.75);
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  align-items: flex-end;
+
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.open {
+  display: flex;
+
+  /* transition: opacity 1s; */
+  /* opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%); */
+}
+
+.burger-gray-background {
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 12px 12px 0 0;
+}
+
+.burger-panel {
+  width: -webkit-fill-available;
+  /* transform: translateY(100%); */
+  /* transition: all 2s linear; */
+}
+
+.burger-panel-open {
+  /* transform: translateY(0%); */
+  /* transition: all 2s linear; */
+  margin-bottom: 0px;
+  width: -webkit-fill-available;
+}
+
+.burger-nav-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.burger-nav-panel a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #24a3ff;
+  display: flex;
+  align-items: center;
+  height: 43px;
+  background: #f5f5fa;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+  width: -webkit-fill-available;
+}
+
+.burger-nav-panel a:first-child {
+  background: #ffffff;
+  max-width: 32px;
+  max-height: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.burger-nav-panel a:active {
+  background: #e6e6f0;
+}
+
+.active-burger-navigation {
+  color: #f0145a !important;
+}
+
+.burger-nav-panel a:last-child {
+  margin-bottom: 0;
+}
+
+.button-arrow-full {
+  z-index: 0;
+}
+
+.menu.open {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
+}

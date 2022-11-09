@@ -304,6 +304,10 @@
 
 /* -------------------------------- Tablet SD ----------------------------------------------------------- */
 @media screen and (min-width: 768px) {
+  .open {
+    display: none;
+  }
+
   .container {
     margin-left: auto;
     margin-right: auto;
