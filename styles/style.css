@@ -1511,11 +1511,6 @@ li::marker {
 
 .open {
   display: flex;
-
-  /* transition: opacity 1s; */
-  /* opacity: 1;
-  transition: all 1s;
-  transform: translateY(0%); */
 }
 
 .burger-gray-background {
@@ -1528,6 +1523,7 @@ li::marker {
   width: -webkit-fill-available;
   /* transform: translateY(100%); */
   /* transition: all 2s linear; */
+  opacity: 1;
 }
 
 .burger-panel-open {
@@ -1592,6 +1588,6 @@ li::marker {
 
 .menu.open {
   opacity: 1;
-  transition: all 1s;
+  transition: all 0.2s;
   transform: translateY(0%);
 }
