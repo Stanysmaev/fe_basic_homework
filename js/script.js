@@ -49,12 +49,10 @@ $('#pills-4-tab').click(function() {
   $('#pills-3-tab').removeClass('active-urls-element');
 })
 
-// $('.href-button-h').click(function(){
-//   $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 100);
-//   return false;
-// });
-
+const item = document.querySelector('.contact');
+const getItemCoords = item.getBoundingClientRect().top;
+console.log(getItemCoords)
 $('.href-button-h').click(function(){
-  $('html, body').animate({scrollTop: 600}, 0);
-  return false;
+  $('html, body').animate({scrollTop: getItemCoords}, 0);
+  // return false;
 });
