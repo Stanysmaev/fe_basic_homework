@@ -12,7 +12,7 @@ $('.showPopup').click(function() {
   $('.modal-wrapper').addClass('active-new');
 })
 
-$('.modal-wrapper, .modal-window .close').click(function(event) {
+$('.modal-wrapper, .service-entry-cross, .modal-window .close').click(function(event) {
   if (event.target == event.currentTarget) {
     $('.modal-wrapper').removeClass('active-new');
   }
@@ -48,3 +48,13 @@ $('#pills-4-tab').click(function() {
   $('#pills-2-tab').removeClass('active-urls-element');
   $('#pills-3-tab').removeClass('active-urls-element');
 })
+
+// $('.href-button-h').click(function(){
+//   $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 100);
+//   return false;
+// });
+
+$('.href-button-h').click(function(){
+  $('html, body').animate({scrollTop: 600}, 0);
+  return false;
+});

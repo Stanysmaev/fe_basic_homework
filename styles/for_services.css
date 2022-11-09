@@ -18,6 +18,43 @@ nav .nav-element:hover {
   transition: 0.2s;
 }
 
+.modal-window {
+  background-color: rgba(0, 0, 0, 1) !important;
+  padding: 0;
+  border-radius: none;
+  width: 100%;
+  max-width: 650px;
+  position: relative;
+}
+
+.modal-wrapper {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(50, 50, 100, 0.75);
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+.form-gray-background {
+  margin-top: 0;
+}
+
+.modal-window .close {
+  position: inherit;
+}
+
+.service-entry-cross {
+  vertical-align: top;
+}
+
+.service-entry-h2-cross {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
   .grid .f-item1 {
     grid-area: a;

@@ -9,6 +9,10 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
+/* body {
+  scroll‑behavior: smooth;
+} */
+
 img {
   max-width: 100%;
 }
@@ -667,6 +671,7 @@ footer {
   background-color: #f5f5fa;
   border-radius: 12px;
   margin-top: 30px;
+  box-shadow: 0px 15px 80px rgba(40, 40, 86, 0.5);
 }
 
 .form-text-gradient {
@@ -840,6 +845,13 @@ textarea:focus {
   /* min-width: 500px; */
   max-width: 500px;
   position: relative;
+}
+
+.close:hover {
+  width: 32px;
+  height: 32px;
+  background: #e6e6f0;
+  border-radius: 8px;
 }
 
 .modal-window .close {
@@ -1402,13 +1414,20 @@ textarea:focus {
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
   margin-top: 27px;
-  margin-left: 53px;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  display: flex;
+}
+
+.services-entry-popup:hover {
+  background: #0085ff;
+}
+
+.services-entry-popup:active {
+  background: #006ccf;
 }
 
 .services-entry-line {
@@ -1417,6 +1436,47 @@ textarea:focus {
   margin: 30px 0;
 }
 
-.services-entry-ul {
-  list-style-type: circle;
+.services-entry-list ul {
+  list-style-type: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-left: -10px;
+}
+
+.services-entry-list li {
+  margin-bottom: 15px;
+}
+.services-entry-list li:nth-child(4) {
+  margin-bottom: 30px;
+}
+
+li::marker {
+  color: #f0145a;
+}
+
+.services-entry-list-h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.services-entry-li-item {
+  position: relative;
+  left: -4px;
+}
+
+.services-entry-background-gradient {
+  padding-bottom: 30px;
+}
+
+.margin-bottom-60px {
+  margin-bottom: 60px;
+}
+
+.services-entry-publications-container {
+  border-radius: 12px 12px 0px 0px;
 }

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
   <link rel="stylesheet" href="../styles/for_homepage.css">
+  <link rel="stylesheet" href="../styles/for_services.css">
 </head>
 
 <body>
@@ -25,9 +26,9 @@
           <a href="../index.html">
             <img src="../images/homepage/Logo.png" alt="logo-name">
           </a>
-          <img src="../images/Slash.png" alt="Slash" class="slash slash-to-hide">
+          <img src="../images/Slash.png" alt="Slash" class="slash">
           <a href="../index.html">
-            <h2 class="active-page-white active-page-white-to-hide">services</h2>
+            <h2 class="active-page-white">services</h2>
           </a>
         </div>
 
@@ -103,8 +104,8 @@
   </header>
 
   <main>
-    <div class="background-gradient">
-      <div class="container-hw services-entry">
+    <div class="background-gradient services-entry-background-gradient ">
+      <div class="container-hw services-entry max-width-services-entry">
         <div class="white-box">
           <img src="../images/homepage/Ecommerce.svg" alt="Ecommerce">
         </div>
@@ -116,37 +117,60 @@
         <p class="services-entry-gradient-p">In addition, over time, the work will become the same type and
           uninteresting for a full-time lawyer. And we
           know very well how difficult it is to find a good candidate with experience in the field of information
-          technology in Ukraine.</p>
+          technology in Ukraine.
+        </p>
       </div>
 
-      <div class="container-hw">
+      <div class="container-hw flex justify-center">
         <button class="showPopup services-entry-popup">Free consultation</button>
       </div>
 
-      <div class="container-hw">
+      <div class="container-hw max-width-services-entry">
         <div class="services-entry-line"></div>
       </div>
 
-      <div class="container-hw">
-        <h2>Services in this area:</h2>
-        <div>
+      <div class="container-hw max-width-services-entry">
+        <h2 class="services-entry-list-h2">Services in this area:</h2>
+        <div class="services-entry-list">
           <div>
             <ul>
-              <li>support of investment projects for the development of port infrastructure;</li>
-              <li>certification of GTS, entering information about them in mandatory databases and registers;</li>
-              <li>registration of permits for the construction of port terminals;</li>
-              <li>registration of permit and other mandatory documentation required for carrying out activities in the
-                port (emission permit, conclusion on EIA, RTC, etc.);</li>
+              <li>
+                <p class="services-entry-li-item"> support of investment projects for the development of port
+                  infrastructure;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">certification of GTS, entering information about them in
+                  mandatory databases and registers;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">registration of permits for the construction of port terminals;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">registration of permit and other mandatory documentation required
+                  for carrying out activities in the
+                  port (emission permit, conclusion on EIA, RTC, etc.);</p>
+              </li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>support of procedures related to the lease of state property in the port;</li>
-              <li>support of procedures related to confirmation of the status of port operator, maritime agent, foreign
-                sailing line;</li>
-              <li>support of procedures related to the inclusion of the company within the port;</li>
-              <li>appeals against actions related to the illegal imposition of services in the port by monopoly
-                companies.</li>
+              <li>
+                <p class="services-entry-li-item">support of procedures related to the lease of state property in
+                  the port;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">support of procedures related to confirmation of the status of
+                  port operator, maritime agent, foreign
+                  sailing line;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">support of procedures related to the inclusion of the company
+                  within the port;</p>
+              </li>
+              <li>
+                <p class="services-entry-li-item">appeals against actions related to the illegal imposition of
+                  services in the port by monopoly companies.</p>
+              </li>
             </ul>
           </div>
         </div>
@@ -154,11 +178,11 @@
 
     </div>
     <div class="background-gradient-2"></div>
-    <div class="background-gradient-3"></div>
+    <div class="background-gradient-3 margin-bottom-60px"></div>
 
 
 
-    <section class="gray-publications-background">
+    <section class="gray-publications-background services-entry-publications-container">
       <div class="container-hw publications-container">
         <div class="flex blue-text-services publication-blue-text">
           <a class="blue-text" href="./pages/publications.html">Publications
@@ -267,13 +291,30 @@
 
   <div class="modal-wrapper">
     <div class="modal-window">
-      <span class="close">&times;</span>
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, blanditiis?</p>
-      <form>
-        <input type="text" placeholder="email">
-        <button type="submit">Send</button>
-      </form>
+      <div class="form-gray-background service-entry-form-gray-background">
+        <form action="https://fom.in.ua/echo" method="post">
+          <div class="service-entry-h2-cross">
+            <h2 class="form-text-gradient">We would like to help you</h2>
+            <span class="close">
+              <svg class="service-entry-cross" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+              </svg>
+            </span>
+          </div>
+          <input class="form-input-text" id="name" type="text" name="first_name" placeholder="Name" required>
+          <p></p>
+          <textarea class="form-input-text" name="message" id="message" cols="30" rows="10" placeholder="Message"
+            required></textarea>
+          <h2 class="form-gray-text">How to answer you?</h2>
+          <input class="form-input-text" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="Phone number" required>
+          <input class="form-input-text" type="email" name="email" pattern="[^@\s]+@[^@\s]+"
+            title="Invalid email address" placeholder="Email" required>
+          <input class="form-input-button" type="submit" value="Send message">
+        </form>
+      </div>
     </div>
   </div>
 

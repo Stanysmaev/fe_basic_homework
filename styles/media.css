@@ -759,6 +759,25 @@
     font-size: 36px;
     line-height: 44px;
   }
+
+  .services-entry {
+    padding-top: 278px;
+  }
+
+  .services-entry-gradient-h3 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .services-entry-line {
+    margin: 60px 0 30px 0;
+  }
+
+  .services-entry-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
 }
 
 /* -------------------------------- Tablet HD -------------------------------------------------------- */
@@ -945,6 +964,10 @@
     width: 422px;
   }
 
+  .service-entry-form-gray-background {
+    width: auto;
+  }
+
   .big-h {
     height: 768px !important;
     background-size: contain;
@@ -1059,6 +1082,10 @@
   .margin-bottom-30px {
     margin-bottom: 30px !important;
   }
+
+  .services-entry {
+    padding-top: 176px;
+  }
 }
 
 /* -------------------------------- Desktop SD ---------------------------------- */
@@ -1137,6 +1164,14 @@
     min-width: 400px;
     max-height: 344px;
   }
+
+  .max-width-services-entry {
+    max-width: 1200px;
+  }
+
+  .service-entry-form-gray-background {
+    width: 650px;
+  }
 }
 
 /* -------------------------------- Desktop HD ---------------------------------- */
@@ -1201,6 +1236,10 @@
   }
 
   .form-gray-background {
+    width: 650px;
+  }
+
+  .service-entry-form-gray-background {
     width: 650px;
   }
 
@@ -1274,6 +1313,10 @@
   .publications-container {
     padding-left: 160px;
     padding-right: 160px;
+  }
+
+  .max-width-services-entry {
+    max-width: 1480px;
   }
 }
 
@@ -1357,5 +1400,9 @@
     left: 0;
     right: 0;
     text-align: center;
+  }
+
+  .max-width-services-entry {
+    max-width: 1360px;
   }
 }
