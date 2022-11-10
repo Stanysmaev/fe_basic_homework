@@ -308,6 +308,14 @@
     display: none;
   }
 
+  .container-team {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1320px;
+  }
+
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -1339,7 +1347,7 @@
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
-    max-width: 1276px;
+    max-width: 1600px;
   }
 
   .container-hw {

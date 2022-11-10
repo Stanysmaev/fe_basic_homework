@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../styles/reset.css">
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
+  <link rel="stylesheet" href="../assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
           <button class="language-buttons-element active-language">EN</button>
         </div>
         <div class="gray-dot"></div>
-        <h4 class="address">Kyiv, Mechnikova str, 14/1</h4>
+        <h4 class="address contact-addres">Kyiv, Mechnikova str, 14/1</h4>
         <div class="gray-dot"></div>
         <div>
           <a class="phone" href="tel:+0800211927">0800&nbsp;211&nbsp;927</a>
@@ -57,45 +58,47 @@
       <div class="item4">
         <div>
           <nav class="navigation">
-            <a class="nav-element" href="#!">about us</a>
-            <a class="nav-element" href="#!">services</a>
-            <a class="nav-element" href="./team.html">team</a>
-            <a class="nav-element" href="#!">publications</a>
+            <a class="nav-element blue-hover-effect-nav" href="./about.html">about us</a>
+            <a class="nav-element blue-hover-effect-nav" href="./services.html">services</a>
+            <a class="nav-element blue-hover-effect-nav" href="./team.html">team</a>
+            <a class="nav-element blue-hover-effect-nav" href="./publications.html">publications</a>
             <a class="nav-element active-navigation" href="./contact.html">contact</a>
           </nav>
         </div>
 
-        <input type="checkbox" class="checkbox">
         <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="burger-dark"></span>
+          <span class="burger-dark"></span>
+          <span class="burger-dark"></span>
         </div>
-        <nav class="burger-nav flex gap-rem">
-          <div class="white-container">
-            <a class="burger-cross" href="#!">
-              <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
-              </svg>
 
-            </a>
-            <a href="#!">about us</a>
-            <a href="#!">послуги</a>
-            <a href="./team.html">команда</a>
-            <a href="#!">публікації</a>
-            <a class="active-burger-navigation" href="./contact.html">контакти</a>
+        <div class="menu">
+          <div class="burger-panel">
+            <div class="burger-gray-background">
+              <nav class="burger-nav-panel gap-rem">
+                <a href="#!">
+                  <svg class="burger-cross" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                    <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                  </svg>
+                </a>
+                <a href="../pages/about.html">about us</a>
+                <a href="../pages/services.html">послуги</a>
+                <a href="../pages/team.html">команда</a>
+                <a href="../pages/publications.html">публікації</a>
+                <a class="active-burger-navigation" href="../pages/contact.html">контакти</a>
+              </nav>
+            </div>
           </div>
-        </nav>
+        </div>
       </div>
 
     </div>
     <div class="gray-background"></div>
   </header>
 
-  <main class="">
-    <section class="container contact flex justify-center column">
+  <main>
+    <section class="contact-container container contact flex justify-center column">
       <div class="flex column">
         <h2 class="contact-black-text">Kyiv,<br>Mechnikova str, 14</h2>
         <div class="gray-rectangle"></div>
@@ -120,7 +123,7 @@
         </div>
       </div>
 
-      <div class="form-gray-background">
+      <div class="anti-shadow form-gray-background">
         <form action="https://fom.in.ua/echo" method="post">
           <h2 class="form-text-gradient">We would like to help you</h2>
           <input class="form-input-text" id="name" type="text" name="first_name" placeholder="Name" required>
@@ -171,6 +174,12 @@
     </div>
   </footer>
 
+
+
+  <script src="../js/jquery-3.6.1.min.js"></script>
+  <script src="../assets/slick-1.8.1/slick/slick.min.js"></script>
+  <script src="../assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@ $('.showPopup').click(function() {
   $('.modal-wrapper').addClass('active-new');
 });
 
-$('.modal-wrapper, .service-entry-cross, .modal-window .close').click(function(event) {
+$('.modal-wrapper, .service-entry-cross, .modal-window .close, cross-stick').click(function(event) {
   if (event.target == event.currentTarget) {
     $('.modal-wrapper').removeClass('active-new');
   }
@@ -45,14 +45,7 @@ $('#pills-4-tab').click(function() {
   $('#pills-3-tab').removeClass('active-urls-element');
 });
 
-// функция для кнопки на странице index 
-const item = document.querySelector('.big-h');
-const getItemCoords = item.getBoundingClientRect().bottom;
-console.log(getItemCoords)
-$('.href-button-h').click(function(){
-  $('html, body').animate({scrollTop: getItemCoords}, 0);
-  // return false;
-});
+
 
 $('.burger').click(function() {
   $(this).toggleClass('burger-active')

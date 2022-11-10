@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick.css">
   <link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick-theme.css">
   <link rel="stylesheet" href="../assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="./assets/bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css"> -->
-
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
   <link rel="stylesheet" href="../styles/for_homepage.css">
@@ -27,7 +25,7 @@
             <img src="../images/homepage/Logo.png" alt="logo-name">
           </a>
           <img src="../images/Slash.png" alt="Slash" class="slash">
-          <a href="../index.html">
+          <a href="../pages/services.html">
             <h2 class="active-page-white">services</h2>
           </a>
         </div>
@@ -73,29 +71,31 @@
             </nav>
           </div>
 
-          <input type="checkbox" class="checkbox">
           <div class="burger">
             <span class="burger-white"></span>
             <span class="burger-white"></span>
             <span class="burger-white"></span>
-            <span class="burger-white"></span>
           </div>
-          <nav class="burger-nav flex gap-rem">
-            <div class="white-container white-container-fix">
-              <a class="burger-cross" href="#!">
-                <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-                  <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
-                </svg>
 
-              </a>
-              <a href="#!">about us</a>
-              <a href="#!">послуги</a>
-              <a href="./pages/team.html">команда</a>
-              <a href="#!">публікації</a>
-              <a class="active-burger-navigation" href="./pages/contact.html">контакти</a>
+          <div class="menu">
+            <div class="burger-panel">
+              <div class="burger-gray-background">
+                <nav class="burger-nav-panel gap-rem">
+                  <a href="#!">
+                    <svg class="burger-cross" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                      <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                    </svg>
+                  </a>
+                  <a href="../pages/about.html">about us</a>
+                  <a class="active-burger-navigation" href="../pages/services.html">послуги</a>
+                  <a href="../pages/team.html">команда</a>
+                  <a href="../pages/publications.html">публікації</a>
+                  <a href="../pages/contact.html">контакти</a>
+                </nav>
+              </div>
             </div>
-          </nav>
+          </div>
         </div>
 
       </div>
@@ -235,27 +235,8 @@
 
         <hr class="container-hw line-before-footer">
       </div>
-
     </section>
-
-
   </main>
-
-
-
-
-  <div class="container-hw hidden">
-    <h1>lesson17</h1>
-    <p class="burger-new active-new">
-      <span></span><span></span><span></span><span></span>
-    </p>
-    <button class="showPopup">Show popup</button>
-  </div>
-
-
-
-
-
 
   <footer class="footer-contact">
     <div class="container-hw wide">
@@ -298,8 +279,8 @@
             <span class="close">
               <svg class="service-entry-cross" width="32" height="32" viewBox="0 0 32 32" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                <path class="cross-stick" d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                <path class="cross-stick" d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
               </svg>
             </span>
           </div>
