@@ -1587,6 +1587,7 @@ li::marker {
 
 .burger-dark {
   border: 1px solid #000000 !important;
+  background-color: #000000 !important;
 }
 
 .contact-container.container {
