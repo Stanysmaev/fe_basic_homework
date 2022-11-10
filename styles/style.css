@@ -9,10 +9,6 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
-/* body {
-  scroll‑behavior: smooth;
-} */
-
 img {
   max-width: 100%;
 }
@@ -195,9 +191,7 @@ input:active + .burger {
   z-index: 1;
   inset: 0;
   padding-top: calc(50px + 2rem);
-  /* padding-left: 1rem; */
   background: rgba(50, 50, 100, 0.7);
-  /* opacity: 0.7; */
   color: #fff;
   font-size: 2rem;
   transform: translateY(100%);
@@ -234,7 +228,6 @@ input:active + .burger {
   margin-right: auto;
   width: 335px;
   justify-content: center;
-  /* text-decoration: none; */
   -webkit-tap-highlight-color: transparent;
 }
 .white-container a:first-child {
@@ -682,7 +675,6 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent; */
   margin-bottom: 30px;
 }
 
@@ -826,7 +818,6 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  /* border-color: rgba(0, 0, 0, 0.75); */
   background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   inset: 0;
@@ -837,12 +828,10 @@ textarea:focus {
 }
 
 .modal-window {
-  /* border-color: white; */
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
   width: 100%;
-  /* min-width: 500px; */
   max-width: 500px;
   position: relative;
 }
@@ -965,7 +954,6 @@ textarea:focus {
 
 .href-button-h:hover .arrow-svg .button-arrow {
   stroke: #f0145a;
-  /* opacity: 0.5; */
 }
 
 .info-under-h {
@@ -1521,14 +1509,10 @@ li::marker {
 
 .burger-panel {
   width: -webkit-fill-available;
-  /* transform: translateY(100%); */
-  /* transition: all 2s linear; */
   opacity: 1;
 }
 
 .burger-panel-open {
-  /* transform: translateY(0%); */
-  /* transition: all 2s linear; */
   margin-bottom: 0px;
   width: -webkit-fill-available;
 }
@@ -1547,7 +1531,8 @@ li::marker {
   color: #24a3ff;
   display: flex;
   align-items: center;
-  height: 43px;
+  /* height: 43px; */
+  height: 73px;
   background: #f5f5fa;
   border-radius: 12px;
   margin-left: auto;
