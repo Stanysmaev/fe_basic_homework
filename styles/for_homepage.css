@@ -4,15 +4,9 @@
 
 @media screen and (max-width: 1024px) {
   ::-webkit-scrollbar {
-    /* opacity: 0%; */
     display: none;
   }
 }
-
-/* стиль отвечающий за скролбар */
-/* ::-webkit-scrollbar {
-  display: none;
-} */
 
 .footer-contact {
   margin-top: 0px;
