@@ -297,7 +297,8 @@
   }
 
   .big-h {
-    min-height: 600px !important;
+    /* min-height: 600px !important; */
+    height: 100vh;
     background-size: cover;
   }
 }
@@ -552,7 +553,8 @@
   }
 
   .big-h {
-    height: 1024px !important;
+    /* height: 1024px !important; */
+    height: 100vh;
     background-size: cover;
   }
 
@@ -981,7 +983,8 @@
   }
 
   .big-h {
-    height: 768px !important;
+    /* height: 768px !important; */
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1256,7 +1259,8 @@
   }
 
   .big-h {
-    height: 1000px !important;
+    /* height: 1000px !important; */
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
   }
