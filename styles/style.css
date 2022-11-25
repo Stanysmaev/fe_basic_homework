@@ -1494,7 +1494,11 @@ li::marker {
   padding: 0 15px;
   background-color: rgba(50, 50, 100, 0.75);
   position: fixed;
-  inset: 0;
+  /* inset: 0; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
   align-items: flex-end;
 

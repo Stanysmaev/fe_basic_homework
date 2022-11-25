@@ -1,0 +1,9 @@
+@-moz-document url-prefix() {
+  .burger-panel-open {
+    width: -moz-available;
+  }
+
+  .burger-nav-panel a {
+    width: -moz-available;
+  }
+}
